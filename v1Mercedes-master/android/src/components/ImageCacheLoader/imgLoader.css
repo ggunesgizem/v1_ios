@@ -1,0 +1,12 @@
+.imgLoader {
+  background-image: url("../../assets/logo.btn.png");
+  background-size: 45px 45px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.imgFadeIn {
+  animation-name: fadeStatic;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}

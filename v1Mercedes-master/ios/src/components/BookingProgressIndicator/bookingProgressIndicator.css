@@ -1,0 +1,65 @@
+.booking-progress-indicator-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.booking-progress-indicator-circle{
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  border: 2px solid #00adef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-progress-indicator-circle-active{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 2px solid #25E2FF;
+  -moz-box-shadow:0 0 8px #17cdf8;
+  -webkit-box-shadow: inset 0 0 10px #17cdf8, 0 0 10px #029cd6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-progress-indicator-circle-disabled{
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  border: 2px solid #646464;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-progress-indicator-line{
+  height: 2px;
+  width: 7.5vw;
+  background-color: #00adef;
+}
+
+.booking-progress-indicator-line-disabled{
+  height: 2px;
+  width: 7.5vw;
+  background-color: #646464;
+}
+
+.booking-progress-indicator-icon-active {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.booking-progress-indicator-icon {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

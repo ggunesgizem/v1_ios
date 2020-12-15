@@ -1,0 +1,11 @@
+.dsc_main {
+  width: 100%;
+  height: var(--top-container-height);
+}
+
+.dsc_content {
+  width: 100%;
+  height: calc(100% - var(--top-container-height));
+  overflow-y: auto;
+  background-color: white;
+}

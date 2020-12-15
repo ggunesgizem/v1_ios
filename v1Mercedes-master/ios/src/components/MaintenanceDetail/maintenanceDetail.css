@@ -1,0 +1,297 @@
+.maintenance-wrapper {
+  height: 100%;
+  width: 100%;
+  background: black;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.maintenance_tab_master {
+  width: 100%;
+  height: calc(100% - var(--top-container-height));
+  padding-left: 22px;
+  padding-right: 22px;
+  background-color: black;
+}
+
+.detail-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  font-family: CorpoS_Bold;
+}
+
+.detail-container-inner {
+  padding-left: 27px;
+  padding-right: 27px;
+  font-family: CorpoS;
+}
+
+.maintenance-title{
+  color:white;
+}
+
+.maintenance-item{
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: var(--content-padding-left);
+    padding-right: var(--content-padding-right);
+    font-family:  CorpoS;
+}
+
+.maintenance-item::before {
+  content: "\2022";
+  font-size: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.maintenance-subtitle {
+  color: white;
+  padding: 21px;
+  font-family: CorpoS;
+}
+
+.part-material-main-text {
+  font-family: CorpoS;
+  color: white;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 10.3px;
+}
+
+.part-material-sub-text {
+  color: white;
+  font-family: CorpoS;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.pm_mainContainer {
+  font-family: CorpoS;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 320px) {
+  .maintenance-title {
+    font-size: 21px;
+    font-family: CorpoPro_Regular, CorpoALig;
+  }
+
+  .maintenance-subtitle {
+    font-size: 14px;
+  }
+
+  .maintenance-select {
+    font-size: 14px;
+    font-family: CorpoS;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .maintenance-item {
+    font-size: 14px;
+  }
+
+  .detail-container {
+    font-size: 14px;
+  }
+
+  .part-material-main-text {
+    font-size: 14px;
+  }
+
+  .part-material-sub-text {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .maintenance-title {
+    font-size: 7vw;
+    font-family: CorpoPro_Regular,CorpoALig;
+  }
+
+  .maintenance-subtitle {
+    font-size: 4vw;
+  }
+
+  .maintenance-select {
+    font-size: 4vw;
+    font-family: CorpoS;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .maintenance-item {
+    font-size: 4vw;
+  }
+
+
+  .detail-container {
+    font-size: 4vw;
+  }
+
+  .part-material-main-text {
+    font-size: 4vw;
+  }
+
+  .part-material-sub-text {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .maintenance-title {
+    font-size: 28px;
+    font-family: CorpoPro_Regular, CorpoALig;
+  }
+
+  .maintenance-subtitle {
+    font-size: 18px;
+  }
+
+  .maintenance-select {
+    font-size: 18px;
+    font-family: CorpoS;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .maintenance-item {
+    font-size: 18px;
+  }
+
+  .detail-container {
+    font-size: 18px;
+  }
+
+  .part-material-main-text {
+    font-size: 18px;
+  }
+
+  .part-material-sub-text {
+    font-size: 15px;
+  }
+}
+
+.maintenance-closeBtn {
+  color: rgba(153,153,153,1);
+  font-size: 20px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+
+.maintenance-select-item {
+  display: inline;
+  font-family: CorpoS_Bold;
+  border-bottom: 2px rgba(0, 173, 239, 0) solid;
+  color: #999999;
+  margin-left: 25px;
+  -webkit-transition: color 0.3s, border-bottom 0.3s;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.item-active {
+  font-family: CorpoS_Bold;
+  border-bottom: 2px #00ADEF solid;
+  color: white;
+  display: inline;
+}
+.maitenance-items {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.detail-title {
+  color: white;
+  text-align: left;
+  font-family: CorpoS_Bold;
+  margin-top: 20px;
+}
+
+.detail-content {
+  color: white;
+  text-align: left;
+  font-family: CorpoS_Light;
+}
+.maintenance {
+  top: 60px;
+}
+.part-material {
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+.part-material-list {
+  padding-right: 12%;
+  padding-left: 12%;
+}
+
+
+
+.maintenance-closeBtn {
+  color: rgba(153,153,153,1);
+  font-size: 20px;
+  position: fixed;
+  right: 8%;
+  top: 8%;
+}
+
+.maintenance-item-appear {
+  opacity: 0.01;
+  /*transform: translate(0%, 100%);*/
+}
+
+.maintenance-item-appear.maintenance-item-appear-active {
+  opacity: 1;
+  /*transform: translate(0%);*/
+  transition: all 500ms ease-in-out;
+}
+
+.maintenance-item-enter {
+  opacity: 0.01;
+  /*transform: translate(0%, 100%);*/
+}
+
+.maintenance-item-enter.maintenance-item-enter-active {
+  opacity: 1;
+  /*transform: translate(0%);*/
+  transition: all 500ms ease-in-out;
+}

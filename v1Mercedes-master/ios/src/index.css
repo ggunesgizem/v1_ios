@@ -1,0 +1,475 @@
+:root {
+
+  --main-nav-height : 60px;
+  --top-container-height : 67px;
+  --top-header-heigth : 30px;
+
+  --content-padding-left :15px;
+  --content-padding-right :15px;
+
+  --language-selection-font-size :14px;
+
+  --header-font-size: 32px;
+  --header-subtitle-font-size : 20px;
+
+  --sub-header-font-size : 28px;
+  --sub-header-subtitle-font-size : 20px;
+
+  --forms-textbox-font-size : 18px;
+  --forms-textbox-height : 11.5vw;
+  --forms-textbox-min-height : 30px;
+  --forms-textbox-max-height : 45px;
+  --forms-textbox-font : CorpoS_Bold;
+  --forms-textbox-font-color : #333333;
+  --forms-textbox-font-placeholder : #666666;
+
+  --forms-textbox-error-font-size : 18px;
+  --forms-textbox-error-font-color : #FF0000;
+
+  --button-font-size : 18px;
+  --button-height : 11vw;
+  --button-min-height : 44px;
+  --button-max-height : 65px;
+
+  --inner-page-header-height : 11.5vw;
+  --inner-page-header-min-height : 42px;
+  --inner-page-header-max-height : 64px;
+  --inner-page-header-font-size : 18px;
+
+  --combobox-title : 18px;
+  --custom-checkbox-height : 18px;
+  --custom-checkbox-width : 18px;
+
+  --veh-status-icon-container-width : 50px;
+  --veh-status-icon-container-height : 50px;
+  --veh-status-icon-width : 25px;
+  --veh-status-icon-heigth : 25px;
+
+  --booking-progress-bar-height : 60px;
+  --booking-progress-title-height : 50px;
+
+  --tab-space-height :15px;
+  --tab-header-height : 44px;
+  --tab-header-selected-underline-color : #00adef;
+  --tab-header-selected-font-color : #ffffff;
+  --tab-header-font-color : #999999;
+  --tab-header-font-size: 17px;
+
+  --product-acc-card-title-font-size : 25px;
+  --product-acc-card-title-font-color : #ffffff;
+  --product-acc-card-title-font : CorpoPro_Regular, CorpoA;
+
+  --products-coll-card-image-height : 180px;
+  --products-coll-card-text-height : 60px;
+
+  --products-coll-card-text-font : CorpoPro_Regular, CorpoA;
+  --products-coll-card-text-font-size : 20px;
+  --products-coll-card-text-font-color : #ffffff;
+
+  --buttonPage-button-zone-height : 79px;
+  --buttonPage-button-zone-lr-padding : 15px;
+  --buttonPage-button-height : 48.3px;
+
+  --buttonPage-button-font : CorpoS;
+  --buttonPage-button-font-size : 18px;
+  --buttonPage-button-font-color : #ffffff;
+  --buttonPage-button-font-color-disabled : #ffffff;
+
+  --accessory-detail-image-height : 240px;
+  --accessory-detail-interest-panel-height : 33px;
+  --accessory-detail-interest-panel-backgroundColor : #00adef;
+  --accessory-detail-interest-panel-font : CorpoS;
+  --accessory-detail-interest-panel-font-size : 20px;
+  --accessory-detail-interest-panel-font-color : #ffffff;
+
+  --icon-star-height : 20px;
+  --icon-star-width : 20px;
+
+  --textButton-padding : 12px;
+  --textButton-font: CorpoS_Bold;
+  --textButton-color: #00adef;
+  --textButton-font-size: 16px;
+
+  --setting-vehicle-font : CorpoS;
+  --settings-vehicle-card-paddingTop : 13px;
+  --setting-vehicle-card-paddingBottom : 13px;
+  --settings-vehicle-card-border-color : #666666;
+  --setting-vehicle-model-font-size : 12px;
+  --setting-vehicle-model-font-color : #ffffff;
+  --setting-vehicle-plate-font-size : 18px;
+  --setting-vehicle-plate-font-color : #ffffff;
+
+  --setting-vehicle-removeButton-font : CorpoS;
+  --setting-vehicle-removeButton-font-color : #cccccc;
+  --setting-vehicle-removeButton-font-size : 18px;
+
+}
+
+.tocMani {
+  touch-action: manipulation!important;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  touch-action: manipulation!important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+a {
+  color: #00ADEF;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.App {
+  height: 100%;
+}
+
+._loading-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 500;
+}
+
+@font-face {
+  font-family: CorpoALig;
+  src: url('assets/fonts/CorpoALig_Regular.ttf');
+}
+
+@font-face {
+  font-family: CorpoA;
+  src: url('assets/fonts/CorpoA_Regular.ttf');
+}
+
+@font-face {
+  font-family: CorpoS_Light;
+  src: url('assets/fonts/CorpoSLig_Regular.ttf');
+}
+
+@font-face {
+  font-family: CorpoS;
+  src: url('assets/fonts/CorpoS_Regular.ttf');
+}
+
+@font-face {
+  font-family: CorpoS_Bold;
+  src: url('assets/fonts/c063004t.ttf');
+}
+
+@font-face {
+  font-family: CorpoPro_Regular;
+  src: url('assets/fonts/CorporateACondPro-Regular.otf');
+}
+
+.topbar-title {
+  font-family: CorpoPro_Regular, CorpoA, Times, serif;
+  font-size: 20px;
+  line-height:1;
+}
+
+.square-btn {
+  font-family: CorpoS_Light;
+  background-color: rgba(0,173,239,1);
+  font-size: 2vh;
+  color: white;
+  width:85vw;
+  height: 6vh;
+  border-radius: 0px;
+}
+
+.square-btn:hover {
+  font-family: CorpoS_Light;
+  color: white;
+}
+
+.square-btn[disabled] {
+  opacity: 1;
+  background-color: rgba(211, 211, 211, 0);
+  border-color: darkgrey;
+  border-width: 2px;
+  color: darkgrey;
+}
+
+input[type=checkbox], input[type=radio] {
+    line-height: normal;
+    margin: 0px;
+}
+.checkbox-small {
+  margin: 0;
+}
+
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+input{
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+textarea{
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+.textbox_general {
+  width: 100%;
+  height: var(--forms-textbox-height);
+  min-height: var(--forms-textbox-min-height);
+  max-height: var(--forms-textbox-max-height);
+  font-size: var(--forms-textbox-font-size);
+
+  text-align: center;
+  font-family: CorpoS;
+  color: black;
+  background: rgba(0,0,0,0);
+
+  border: 1px gray solid;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  text-align: center;
+  border-radius: 0px;
+  -webkit-appearance: none;
+
+  margin-bottom: 20px;
+
+}
+
+.dropdown_general {
+  width: 100%;
+  border-radius: 0px;
+  border: 1px gray solid;
+
+  font-family: CorpoS_Light;
+  height: var(--forms-textbox-height);
+  min-height: var(--forms-textbox-min-height);
+  max-height: var(--forms-textbox-max-height);
+  font-size: var(--forms-textbox-font-size);
+  background-color: rgba(255,255,255,1);
+
+  margin-bottom: 20px;
+  z-index: auto;
+
+}
+
+.dropdown_general .Select-control,.dropdown_general .Select-value, .dropdown_general .Select-control, .dropdown_general .Select-option {
+  background-color: rgba(255,255,255,1);
+  color: black;
+}
+
+.dropdown_general .Select-menu-outer {
+  border: 1px grey solid;
+  border-radius: 0px;
+  width: 100.5%;
+}
+
+.dropdown_general .Select-option {
+  background-color: white;
+  color: black;
+}
+
+.dropdown_general .Select-value {
+  background-color: rgba(0,0,0,0);
+  border-width: 0px;
+  border-radius: 0px;
+}
+
+.dropdown_general.has-value.Select--single > .Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: black;
+  font-family: 'CorpoS_Light', Times, serif;
+}
+
+.dropdown_general.Select--single > .Select-control .Select-value {
+  line-height: 6vh;
+}
+
+.dropdown_general .Select-placeholder {
+  line-height: 6vh;
+  text-align: center;
+}
+
+.dropdown_general .Select-arrow-zone {
+  height: var(--forms-textbox-height);
+  min-height: var(--forms-textbox-min-height);
+  max-height: var(--forms-textbox-max-height);
+}
+
+.button_logout {
+  width: 100%;
+  height: var(--buttonPage-button-height);
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--buttonPage-button-font);
+  font-size: var(--buttonPage-button-font-size);
+  color: #cccccc;
+  border:1px solid #cccccc
+}
+
+.button_general {
+  font-family: CorpoS_Light;
+  background-color: rgba(0,173,239,1);
+  font-size: var(--button-font-size);
+  color: white;
+  width: 100%;
+  border-radius: 0px;
+  height: var(--button-height);
+  min-height: var(--button-min-height);
+  max-height: var(--button-max-height);
+  border: none;
+}
+
+.button_general:disabled {
+  font-family: CorpoS_Light;
+  background-color: darkgrey;
+  font-size: var(--button-font-size);
+  color: white;
+  width: 100%;
+  border-radius: 0px;
+  height: var(--button-height);
+  min-height: var(--button-min-height);
+  max-height: var(--button-max-height);
+  border: none;
+}
+
+.time-picker {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: auto auto 15px auto;
+  border-radius: 0px;
+  color: #555;
+  font-family: CorpoS_Light;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checkbox-container-title {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.1;
+  font-family: CorpoS_Light;
+  font-size: var(--combobox-title);
+}
+
+.custom-checkbox-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: var(--custom-checkbox-width);
+  height: var(--custom-checkbox-height);
+}
+
+.custom-checkbox-anchor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-checkbox {
+  display: none;
+}
+
+.custom-checkbox-anchor::after {
+  content: '';
+  background: #fff;
+  border-radius: 1px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-checkbox:checked+.custom-checkbox-anchor::after {
+    content: '';
+    background: #fff;
+    border-radius: 1px;
+    border: 4px solid rgba(0,173,239,1);
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.fsmodal {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.formFieldContainer {
+  width: 100%;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}
+
+.formField {
+  width: 100%;
+}
+
+.formField_input {
+  width: 100%;
+  min-height: var(--forms-textbox-min-height);
+  max-height: var(--forms-textbox-max-height);
+  height: var(--forms-textbox-height);
+  font-size: var(--forms-textbox-font-size);
+  border: 1px solid #999999;
+  font-family: var(--forms-textbox-font);
+  color: var(--forms-textbox-font-color);
+  padding: 7px;
+}
+
+.formField_warn {
+  display: block;
+  text-align: left;
+  }
+
+.formField_error {
+  display: block;
+  text-align: left;
+  color: var(--forms-textbox-error-font-color);
+  font-size: var(--forms-textbox-error-font-size);
+}

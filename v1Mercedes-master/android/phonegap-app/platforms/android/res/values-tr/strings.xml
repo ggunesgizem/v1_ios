@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Servisim</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="google_app_id" translatable="false">85075801930</string>
+    <string name="custom_permission_description">aciklama</string>
+    <string name="custom_permission_label">Label labe</string>
+    <string name="AnalyticDataPermissionDescription">Analitik Verisi Kullanım İzni</string>
+</resources>

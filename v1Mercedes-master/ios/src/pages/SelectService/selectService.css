@@ -1,0 +1,269 @@
+.custom-modal{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /*opacity: 0.8;*/
+  background-color: rgba(0, 0, 0, 0.77);
+  z-index: 9999;
+}
+.modal-message{
+  position: absolute;
+  top:30%;
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  left:0;
+  right:0;
+  opacity: 1;
+  padding: 20px;
+  color: black;
+  font-size: 18;
+  border-radius: 8;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+}
+.modal-message .title{
+  padding: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: cornflowerblue;
+  color:cornflowerblue;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.select-service-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.select-service-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: CorpoPro_Regular, CorpoALig, Times, serif;
+  height: calc(100% - var(--booking-progress-bar-height) - var(--booking-progress-title-height));
+  overflow-y: auto;
+  -webkit-overflow-scrolling : touch !important;
+}
+
+.select-service-form .checkbox-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.select-service-form .textbox_general {
+  font-size: var(--inner-page-header-font-size);
+  font-family: CorpoS_Light, Times, serif;
+  text-align: left;
+  margin-bottom: 10px;
+  border-color: #999999;
+}
+
+.select-service-other .textbox_general {
+  height: 90px;
+  max-height: none;
+}
+
+.select-service-form-section {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  background-color: #f8f8f8;
+  font-size: var(--inner-page-header-font-size);
+  font-family: CorpoS_Light, Times, serif;
+}
+
+.select-service-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+.select-service-mileage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.select-service-mileage-title {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.select-service-other {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+  color: #999999;
+  font-size: var(--inner-page-header-font-size);
+  font-family: CorpoS_Light, Times, serif;
+  text-align: left;
+}
+
+.select-service-other-title {
+  width: 100%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.select-service-text-input {
+  border-width: 1px;
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid #ccc;
+  height: 6vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0;
+  -webkit-appearance: none;
+  margin-top: 1vh;
+}
+
+.select-service-btn {
+  width: 80%;
+  bottom: 20px;
+  position: fixed;
+  left: 10%;
+  right: 10%;
+}
+
+.select-service-form .button_general {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+
+.select-service-form-item {
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.select-service-errorSpsace {
+  color:#8c0005;
+  font-family: CorpoS_Light;
+  font-size:13px;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animated.delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.animated.delay-3s {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.animated.delay-4s {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.animated.delay-5s {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.animated.fast {
+  -webkit-animation-duration: 800ms;
+  animation-duration: 800ms;
+}
+
+.animated.faster {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.animated.slow {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.slower {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@media (prefers-reduced-motion) {
+  .animated {
+    -webkit-animation: unset !important;
+    animation: unset !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}

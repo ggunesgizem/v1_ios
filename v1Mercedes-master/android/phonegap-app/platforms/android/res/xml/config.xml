@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-packageName="com.daimler.aftersalestracker.android" android-versionCode="1" id="com.daimler.aftersalestracker" ios-CFBundleIdentifier="com.daimler.aftersalestracker.ios.iphone" ios-CFBundleVersion="1.0.6" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="UniversalAnalytics">
+        <param name="android-package" value="com.danielcwilson.plugins.analytics.UniversalAnalyticsPlugin" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Cache">
+        <param name="android-package" value="org.apache.cordova.plugin.cache.Cache" />
+    </feature>
+    <feature name="PushNotification">
+        <param name="android-package" value="com.adobe.phonegap.push.PushPlugin" />
+    </feature>
+    <feature name="deneme">
+        <param name="android-package" value="cordova.plugin.deneme.deneme" />
+    </feature>
+    <feature name="OpthemaAndroidPermissionChecker">
+        <param name="android-package" value="cordova.plugin.opthemapermissionchecker.OpthemaAndroidPermissionChecker" />
+    </feature>
+    <feature name="RootDetection">
+        <param name="android-package" value="ru.trykov.root.RootDetection" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Servisim</name>
+    <description>
+        Hello World sample application that responds to the deviceready event.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="file://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="whatsapp://*" />
+    <allow-intent href="comgooglemapsurl://*" />
+    <allow-navigation href="*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/icon/android/icon-ldpi.png" />
+    <icon density="mdpi" src="res/icon/android/icon-mdpi.png" />
+    <icon density="hdpi" src="res/icon/android/icon-hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/icon-xhdpi.png" />
+    <icon density="xxhdpi" src="res/icon/android/icon-xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icon/android/icon-xxxhdpi.png" />
+    <splash density="land-ldpi" height="768" src="res/screen/android/Default-Landscape.png" width="1024" />
+    <splash density="land-mdpi" height="1536" src="res/screen/android/Default-Landscape@2x.png" width="2048" />
+    <splash density="land-hdpi" height="1242" src="res/screen/android/Default-Landscape@3x.png" width="2208" />
+    <splash density="port-mdpi" height="1136" src="res/screen/android/Default-568h.png" width="640" />
+    <splash density="port-hdpi" height="1334" src="res/screen/android/Default-667h.png" width="750" />
+    <splash density="port-xhdpi" height="2208" src="res/screen/android/Default-736h.png" width="1242" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="orientation" value="portrait" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-windowSoftInputMode" value="adjustResize" />
+    <preference name="SplashScreenDelay" value="5000" />
+</widget>

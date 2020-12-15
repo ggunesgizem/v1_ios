@@ -1,0 +1,29 @@
+.for-error-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-error-title {
+  color:red;
+  font-size: 12px;
+}
+
+.form-error-msg {
+  color:red;
+  font-size: 10px;
+}
+
+.btn-select-services-submit {
+  margin-bottom: 10px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.form-error-list {
+  width: 100%;
+  padding: 0px;
+}
+
+.form-error-item {
+  width: 100%;
+}

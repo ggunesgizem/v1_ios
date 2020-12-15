@@ -1,0 +1,56 @@
+{
+  "_from": "adb-mobile-services",
+  "_id": "adb-mobile-services@1.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-uySXZ2UvvYgk45q42Ro6zcZExYo=",
+  "_location": "/adb-mobile-services",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "adb-mobile-services",
+    "name": "adb-mobile-services",
+    "escapedName": "adb-mobile-services",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/adb-mobile-services/-/adb-mobile-services-1.0.6.tgz",
+  "_shasum": "bb249767652fbd8824e39ab8d91a3acdc644c58a",
+  "_spec": "adb-mobile-services",
+  "_where": "/Users/hsncr/Desktop/PROJE/daimlersea-daimlersea.coc.real/phonegap-app",
+  "author": {
+    "name": "Imagitas"
+  },
+  "bugs": {
+    "url": "https://github.com/Imagitas/adb-mobile-services/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "adb-mobile-services",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Adobe Mobile Services with custom ADBMobileConfig.json override",
+  "homepage": "https://github.com/Imagitas/adb-mobile-services#readme",
+  "keywords": [
+    "cordova",
+    "adobe",
+    "analytics",
+    "adbmobile"
+  ],
+  "license": "Apache 2.0",
+  "name": "adb-mobile-services",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imagitas/adb-mobile-services.git"
+  },
+  "version": "1.0.6"
+}

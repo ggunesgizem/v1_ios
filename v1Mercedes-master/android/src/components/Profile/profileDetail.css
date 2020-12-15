@@ -1,0 +1,21 @@
+.profileDetailMain {
+  width: 100%;
+  padding-left : var(--content-padding-left);
+  padding-right : var(--content-padding-right);
+}
+
+.profileDetailMain_twinItemContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.profileDetailMain_twinItem {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.fItem {
+  display: flex;
+  flex-direction: column;
+}

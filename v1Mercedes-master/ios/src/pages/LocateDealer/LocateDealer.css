@@ -1,0 +1,10 @@
+.dealer-list-container {
+  width: 100%;
+  height: calc(100% - var(--booking-progress-title-height) - var(--booking-progress-bar-height));
+  position: relative;
+}
+
+.dealer-list-container-alt {
+  height: 100%;
+  position: relative;
+}

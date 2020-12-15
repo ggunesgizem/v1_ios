@@ -1,0 +1,17 @@
+{
+  "name": "OpthemaAndroidPermissionChecker",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova.plugin.opthemapermissionchecker",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "OpthemaTeknoloji",
+  "license": "MIT"
+}

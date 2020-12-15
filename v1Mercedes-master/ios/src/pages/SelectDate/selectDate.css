@@ -1,0 +1,85 @@
+.section-title {
+  font-family: CorpoS_Bold, Times, serif;
+  color: #666666;
+  width: 100%;
+  height: var(--inner-page-header-height);
+  min-height: var(--inner-page-header-min-height);
+  max-height: var(--inner-page-header-max-height);
+  font-size: var(--inner-page-header-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 3%;
+}
+
+.date-form {
+  -webkit-appearance: none;
+  border-radius: 0px;
+  font-family: CorpoS_Light, Times, serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: var(--inner-page-header-font-size);
+  height: calc(100% - var(--booking-progress-bar-height) - var(--booking-progress-title-height));
+}
+
+.line-seperator {
+  height: 1px;
+  color: lightGrey;
+  background: lightgray;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.select-date-btn {
+  width: 80%;
+  bottom: 20px;
+  position: fixed;
+  left: 10%;
+  right: 10%;
+}
+
+.form-control.user-form-input.date-form {
+  /*line-height: 27px;*/
+}
+
+.selectDate-enter {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(100%, 0, 0);
+}
+
+.selectDate-enter.selectDate-enter-active {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+  transition: all ease-out 600ms;
+}
+
+.date-form .form-control {
+  height: var(--forms-textbox-height);
+  max-height: var(--forms-textbox-max-height);
+  min-height: var(--forms-textbox-min-height);
+  border-color: #999999;
+  font-size: var(--inner-page-header-font-size);
+  text-align: left;
+  padding-left: 10px;
+}
+
+.select-date-container {
+  width: 100%;
+  height: 100%;
+  font-family: CorpoPro_Regular, CorpoALig, Times, serif;
+  color: white;
+  background-color: white;
+}
+
+.date-form .button_general {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 90%;
+}

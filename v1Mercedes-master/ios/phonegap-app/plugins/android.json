@@ -1,0 +1,15 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "adobe-mobile-services": {
+            "PACKAGE_NAME": "com.daimler.aftersalestracker.android.dev"
+        }
+    },
+    "dependent_plugins": {}
+}

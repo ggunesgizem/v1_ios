@@ -1,0 +1,96 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "adobe-mobile-services": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-camera": {
+      "CAMERA_USAGE_DESCRIPTION": "CAMERA REASON",
+      "PHOTOLIBRARY_USAGE_DESCRIPTION": "Photolibrary reason",
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-contacts": {
+      "CONTACTS_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-emre": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-geolocation": {
+      "GEOLOCATION_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-google-analytics": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-jailbreak-detection": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-settings-hook": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-transport-security": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "org.apache.cordova.plugin.cache": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    },
+    "phonegap-plugin-push": {
+      "SENDER_ID": "85075801930",
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.daimler.aftersalestracker.ios.iphone"
+    }
+  }
+}

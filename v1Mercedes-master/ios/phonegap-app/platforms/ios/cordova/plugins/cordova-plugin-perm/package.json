@@ -1,0 +1,17 @@
+{
+  "name": "perm",
+  "version": "0.0.1",
+  "description": "perm",
+  "cordova": {
+    "id": "cordova-plugin-perm",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "perm",
+  "license": "MIT"
+}

@@ -1,0 +1,88 @@
+
+.agent-container {
+  height: calc(100% - var(--booking-progress-title-height) - var(--booking-progress-bar-height));
+  font-family: CorpoPro_Regular, CorpoA;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.agent-container-alt {
+  height: 100%;
+  font-family: CorpoPro_Regular, CorpoA;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.agent-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin-top: 40px;
+  padding-right: 20px;
+}
+
+.agent-closeBtn {
+  color: rgba(153,153,153,1);
+  font-size: 20px;
+  position: fixed;
+  right: 8%;
+  top: 8%;
+}
+
+.agent-title {
+  color: white;
+}
+
+.agent-container .button_general {
+  width:85%;
+}
+
+.agent-container-alt .button_general {
+  width:85%;
+}
+
+@media only screen and (max-width: 320px) {
+  .agent-title {
+    font-size: 21px;
+    font-family: CorpoPro_Regular, CorpoALig;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .agent-title {
+    font-size: 7vw;
+    font-family: CorpoPro_Regular, CorpoALig;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .agent-title {
+    font-size: 28px;
+    font-family: CorpoPro_Regular, CorpoALig;
+  }
+}
+.agentContainer {
+  width: 100%;
+  height: 100%;
+}
+.agent-slider-container {
+  width: 100%;
+  height: calc(100% - 30px - var(--button-height));
+}
+
+.agentContainer_info {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

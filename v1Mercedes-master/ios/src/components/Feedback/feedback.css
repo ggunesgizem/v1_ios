@@ -1,0 +1,109 @@
+.feedback_master {
+  width: 100%;
+  height: calc(100% - var(--top-container-height));
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+.feedback-wrapper {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: black;
+  z-index: 3;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: CorpoPro_Regular, CorpoA;
+}
+
+.feedback-title {
+  font-size: 30px;
+  color: white;
+  font-family: CorpoPro_Regular, CorpoA;
+  margin-top: 15%;
+}
+.feedback-button {
+  background: #00ADEF;
+  border: 0px;
+  color: white;
+  width: 100%;
+  height: 42px;
+  font-size: 15px;
+  bottom: 20px;
+  left: 5%;
+  right: 5%;
+}
+
+.feedback-form {
+  width: 100%;
+}
+
+.feedback-icons {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.faceback-icon {
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.feedback-form textarea {
+  background: black;
+  resize: none;
+  width: 100%;
+  height: 260px;
+  color: white;
+  border: none;
+  font-family: CorpoS_Light;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #999999;
+}
+
+.feedback-explain {
+  color: white;
+  font-family: CorpoS_Light;
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.feeback-enter {
+  opacity: 0.01;
+  transform: translate(0%, 100%);
+}
+
+.feeback-enter.feeback-enter-active {
+  opacity: 1;
+  transform: translate(0%);
+  transition: all 400ms ease-in-out;
+}
+
+.feeback-leave {
+  opacity: 1;
+  transform: translate(0%);
+}
+
+.feeback-leave.feeback-leave-active {
+  opacity: 0.01;
+  transform: translate(0, 100%);
+  transition: all 400ms ease-in-out;
+}

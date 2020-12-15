@@ -1,0 +1,37 @@
+.collectionDetailImageSet {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.collectionDetailMain {
+  width: 100%;
+  position: relative;
+}
+
+.collectionDetailImage {
+  width: 100%;
+  height: var(--accessory-detail-image-height);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.collectionDetailInterestBar {
+  position: absolute;
+  border: 0;
+  width: 100%;
+  background-color: var(--accessory-detail-interest-panel-backgroundColor);
+  height: var(--accessory-detail-interest-panel-height);
+  display: flex;
+  text-align: left;
+  padding-left: 15px;
+  align-items: center;
+  font-family: var(--accessory-detail-interest-panel-font);
+  font-size: var(--accessory-detail-interest-panel-font-size);
+  color: var(--accessory-detail-interest-panel-font-color);
+}

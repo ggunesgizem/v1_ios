@@ -1,0 +1,17 @@
+{
+  "name": "deneme",
+  "version": "0.0.1",
+  "description": "deneme",
+  "cordova": {
+    "id": "cordova.plugin.deneme",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "umit",
+  "license": "MIT"
+}

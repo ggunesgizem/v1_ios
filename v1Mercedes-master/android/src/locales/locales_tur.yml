@@ -1,0 +1,511 @@
+system:
+  session expired : oturumunuz zaman aşımına uğradı
+  network error : Bağlantı hatası, lütfen daha sonra tekrar deneyiniz
+  network error 2 : En yeni bilgiler için lütfen uygulamayı tekrar yükleyin
+
+login:
+  title: Mercedes-Benz Satış Sonrası Hizmetleri'nin ayrıcalıklı dünyasına hoş geldiniz
+  login: Giriş yap
+  register: Kaydol
+
+notification:
+  general:
+    ok: Tamam
+  location:
+    title: Servisim mevcut lokasyonunuza erişmesini istiyor musunuz?
+    text: “Servisim” uygulaması bu bilgiyi mevcut lokasyonunuza erişimek için kullanır. Mevcut lokasyon bilginiz yakınınzdaki servis noktalarını harita üzerinde belirlemek ve navigasyon amaçlı kullanılır. Herhangi bir noktada Android ayarlarınızdan etkinleştirebilir, devre dışı bırakabilirsiniz. iOS Ayarlar -> Gizlilik –> Konum Servisleri -> Servisim
+    textAndroid: “Servisim” uygulaması bu bilgiyi mevcut lokasyonunuza erişimek için kullanır. Mevcut lokasyon bilginiz yakınınzdaki servis noktalarını harita üzerinde belirlemek ve navigasyon amaçlı kullanılır. Herhangi bir noktada Android ayarlarınızdan etkinleştirebilir, devre dışı bırakabilirsiniz. Android Ayarlar > Uygulamalar > Servisim > İzinler > Konum veya Android Ayarlar > Uygulamalar > Uygulama Yöneticisi > Servisim > İzinler > Konum veya Android Ayarlar > Genel > Uygulamalar > Servisim > İzinler > Konum
+    accept: Kabul Et
+    reject: Reddet
+  push notification:
+    title: Bu uygulamanın aracınızın servisteki durumu, yeni kampanya ve etkinlikler hakkında sizi uyaran bildirim göndermesini istiyor musunuz?
+    text: ”Servisim” uygulamasının size bildirim gönderebilmesi için onayınız gerekir. Bildirim özelliğini açtığınızda, uygulama aracınızın servisteki anlık durumu, yeni kampanya ve etkinliklerle ilgili size bildirim gönderir. Bildirimleri herhangi bir noktada Android ayarlarınızdan etkinleştirebilir, devre dışı bırakabilirsiniz. iOS Ayarlar > Bildirimler > Servisim
+    textAndroid: ”Servisim” uygulamasının size bildirim gönderebilmesi için onayınız gerekir. Bildirim özelliğini açtığınızda, uygulama aracınızın servisteki anlık durumu, yeni kampanya ve etkinliklerle ilgili size bildirim gönderir. Bildirimleri herhangi bir noktada Android ayarlarınızdan etkinleştirebilir, devre dışı bırakabilirsiniz. Android Ayarlar > Uygulamalar > Servisim > Bildirimler veya Android Ayarlar > Uygulamalar > Uygulama Yöneticisi > Servisim > Bildirimler veya Android Ayarlar > Genel > Uygulamalar > Servisim > Bildirimler
+    accept: Kabul Et
+    reject: Reddet
+
+legalTerm:
+  termOfUseTitle: Kullanım Şartları
+  termOfUseSubTitle: Servis Durumu Tracker için Son Kullanıcı Kullanım Koşulları
+  accept: Kabul Et
+  decline: Reddet
+  declineAlert: Uygulamaya giriş yapabilmek için Kullanım Şartları'nı kabul etmelisiniz.
+
+#modals
+
+booking:
+  title: Yeni Talep
+  workshop:
+    title: Yetkili servis seç
+    button:
+      back: Yetkili servis listesi
+      select this workshop: Bu yetkili servisi seç
+    search bar:
+      hint text: Şehir ara
+    search result:
+      results : Arama Sonuçları
+      nearby : Yakın çevredeki servisler
+    traffic not available: Trafik mevcut değil
+    preferred: Tercih edilen
+    selected: Seçilen
+    hours: saat
+    mins: dakika
+    drive away: "%(distance)s sürüş mesafesinde"
+    distance away : "%(distance)s Uzakta"
+    get direction: Yol tarifi al
+    set as preferred workshop: Tercih edilen yetkili servis olarak ayarla
+    set as preferred : Tercih edilen yetkili servis olarak ayarla
+    locating nearby dealers: Yakın çevredeki servisler aranıyor...
+    no nearby dealer found: Yakın çevrede servis bulunamadı
+    preference:
+      title: Yetkili servis tercihleri
+      button:
+        next: Sonraki
+  agent:
+    title: Müşteri danışmanı seçiniz
+    button:
+      next: Sonraki
+    not found 1: Bu yetkili servisimizde kayıtlı bir müşteri danışmanı bulunmamaktadır. 
+    not found 2: Lütfen yetkili servis ile iletişime geçiniz veya farklı bir servis seçiniz.
+    select service advisor: Müşteri Danışmanını Seç
+    select this agent: Bu müşteri danışmanını seç
+    mobile: Mobil
+    email: E-posta
+    save as preferences : Tercihleri ​​kaydet
+    selected: Seçildi
+  select date:
+    title: Seçilen randevu tercihleri
+    notification:
+      sunday alert:
+        title: Lütfen başka bir tarih seçin.
+        message: Bu yetkili servis Pazar günü açık değil. Lütfen başka bir tarih seçin.
+        close: Kapat
+    button:
+      next: Sonraki
+      cancel: Geri
+    i want an appointment: Randevu istiyorum
+    or alternatively: veya alternatif olarak
+    form:
+      date: Tarih
+      time: Randevu tarihi
+  services:
+    title: Servis tercihleri
+    button:
+      next: Sonraki
+    form:
+      validation:
+        required: Zorunlu
+        not complete: Aşağıdaki bilgiler tamamlanmadı
+        please specify at least a service : Lütfen en az bir servis tipi belirtin
+    general:
+      title: Servis detayları
+      mileage of your vehicle: Otomobilinizin kilometresi (km)
+      appointmentSelected: Periyodik Bakım
+      maintenance: Periyodik bakım
+      general inspection: TÜV Muayenesi
+      repair: Onarım
+      paint/body: Kaporta/Boya
+    tyre:
+      title: Lastik
+      tyre change: Lastik değişimi
+      tyre change request: Lastik değişim talebinizi belirtiniz
+    others:
+      title: Diğer hizmetler
+      other request hint : Diğer talep (isteğe bağlı)
+      valet service: Vale hizmeti
+      replacement car: İkame araç
+  summary:
+    title: Talebi onayla
+    button:
+      confirm booking: Rezervasyonu onayla
+    notification:
+      add appointment success message : Yeni randevu başarıyla oluşturuldu
+      add appointment success close : Kapat
+      add appointment error title : Yeni randevu oluşturulurken hata alındı
+      add appointment error message : Lütfen daha sonra tekrar deneyiniz
+      add appointment error close : Kapat
+      delete appointment success message : Randevu başarıyla iptal edildi
+      delete appointment success close : Kapat
+      delete appointment error title: Randevu iptal edilirken hata alındı
+      delete appointment error message : Randevu iptal edilemedi, lütfen daha sonra tekrar deneyin.
+      delete appointment error close : Kapat
+
+    preferred appointment schedule : Tercih edilen randevu saati
+    or alternatively: Veya alternatif olarak
+    workshop: Yetkili Servis
+    service Agent: Müşteri Danışmanı
+    service related requests: Servis Detayları
+    tyre change requirement: Lastik değişim talebi
+    other requests: Diğer Talep
+    general:
+      title: Servis detayları
+      mileage of your vehicle: Otomobilinizin kilometresi (km)
+      appointmentSelected: Periyodik Bakım
+      maintenance: Periyodik bakım
+      general inspection: TÜV Muayenesi
+      repair: Onarım
+      paint/body: Kaporta/Boya
+    tyre:
+      title: Lastik
+      tyre change: Lastik değişimi
+      tyre change request: Lastik değişim talebinizi belirtiniz
+    others:
+      title: Diğer hizmetler
+      other request hint : Diğer talep (isteğe bağlı)
+      valet service: Vale hizmeti
+      replacement car: İkame araç
+    email:
+      general:
+        maintenance: Periyodik bakım
+        general inspection: TÜV Muayenesi
+        repair: Onarım
+        paint/body: Kaporta/Boya
+      tyre:
+        tyre change: Lastik değişimi
+      others:
+        valet service: Vale hizmeti
+        replacement car: İkame araç
+
+vehicleadd:
+  title: Yeni Araç
+  button:
+    add: Ekle
+  notification:
+    add:
+      success:
+        message: Araç başarıyla kaydedildi
+        close: Kapat
+      error:
+        primary:
+          title: Yeni araç kaydedilirken hata alındı
+          message: Lütfen daha sonra tekrar deneyiniz
+          close: Kapat
+        secondary:
+          title: Yeni araç kaydedilirken hata alındı
+          message: Araç kaydedilemedi, araç plakası mevcut
+          close: Kapat
+  form:
+    validation:
+      required: Zorunlu
+      invaild input: Geçersiz Giriş
+    plate number: Plaka Numarası
+    series: Seri
+    no series data: Veri yoktur
+    model: Model
+    select model first: Lütfen önce bir model seçin
+    production year: Model Yılı
+
+vehicleedit:
+  button:
+    save: Kaydet
+    remove: Kaldır
+  notification:
+    edit:
+      success:
+        message: Araç güncellendi
+        close: Kapat
+      error:
+        title: Araç güncellenirken hata alındı
+        message: Lütfen daha sonra tekrar deneyiniz
+        close: Kapat
+    delete:
+      comfirmation:
+        title: Aracın hesabınızdan kaldırılması
+        message: Aracın hesabınızdan kaldırılması araçla ilgili bütün servis tarihçesinin silinmesine neden olacaktır.
+        accept: Kabul Et
+        reject: Reddet
+      success:
+        message: Araç silindi
+        close: Kapat
+      error:
+        primary:
+          title: Araç silinirken hata alındı
+          message: Lütfen daha sonra tekrar deneyiniz
+          close: Kapat
+        secondary:
+          title: Araç silinirken hata alındı
+          message: Araca tanımlı aktif randevu kaydı bulunduğundan araç silinemez
+          close: Kapat
+  form:
+    validation:
+      required: Zorunlu
+      invaild input: Geçersiz Giriş
+    mileage: Kilometre
+    series: Seri
+    no series data: Veri yoktur
+    model: Model
+    select model first: Lütfen önce bir model seçin
+    production year: Model Yılı
+
+# first tab
+mb world:
+  title: MB Dünyası
+  campaign:
+    title: Kampanyalar
+  others:
+    title: Diğerleri
+  lead :
+    toc 1 : Fiyatlara işçilik ve KDV dahil değildir.
+    toc 2 : Fotoğraflar, orijinal ürüne göre farklılık gösterebilir.
+    toc 3 : Ürün parça numaraları ve fiyatlar araç tipine göre farklılık gösterebilir.
+    toc 4 : Detaylı bilgi için yetkili servisiniz ile görüşünüz.
+    recommended price : Tavsiye edilen liste satış fiyatı
+  interest :
+    interested : İlgileniyorum
+    express interest : İlgileniyorum
+  remove interest:
+    title : İlgilenmiyorum
+    text : Müşteri danışmanınız bu talep hakkında gün sonunda bilgilendirilecektir. Daha fazla bilgi için lüften müşteri danışmanınızla iletişime geçiniz.
+    accept : Şimdi kaldır
+    reject : Kaldırma
+# second tab
+
+products:
+  title: Ürün Kataloğu
+  accessories:
+    title: Orijinal Aksesuar
+  collections:
+    title: MB Collection
+  lead :
+    toc 1 : Fiyatlara işçilik ve KDV dahil değildir.
+    toc 2 : Fotoğraflar, orijinal ürüne göre farklılık gösterebilir.
+    toc 3 : Ürün parça numaraları ve fiyatlar araç tipine göre farklılık gösterebilir.
+    toc 4 : Detaylı bilgi için yetkili servisiniz ile görüşünüz.
+    recommended price : Tavsiye edilen liste satış fiyatı
+  interest :
+    interested : İlgileniyorum
+    express interest : İlgileniyorum
+  remove interest:
+    title : İlgilenmiyorum
+    text : Müşteri danışmanınız bu talep hakkında gün sonunda bilgilendirilecektir. Daha fazla bilgi için lüften müşteri danışmanınızla iletişime geçiniz.
+    accept : Şimdi kaldır
+    reject : Kaldırma
+
+# third tab
+
+my vehicle:
+  title: My Vehicle
+  add new vehicle: Yeni araç ekle
+  or: veya
+  status tracker:
+    title: Durum Takipçi
+    estimated time left: Bu işlem için öngörülen tahmini süre
+    completed: Tamamlandı
+    in transit to: . işlemleri başlamak üzere
+    hours: Saat
+    mins: Dk
+    minutes: Dakika
+    requesting appointment on: Yeni Talep
+    estimated time to complete : İşlemin tahmini bitiş saati
+    contact customer consultant : Müşteri Temas Sorumlusu ile iletişime geçin
+    cancel booking request: Randevuyu iptal et
+    service duration: Servis Süresi
+    more detail: Daha fazla detay
+    additional services: Ek Hizmetler
+    service status: Servis Durumu
+    footnote: Daha fazla bilgi almak için lütfen müşteri danışmanınıza başvurun.
+
+    booking:
+      stage name: Randevu Onaylandı
+      make booking text: randevu yok
+      booking pending: Rezervasyon beklemede
+      sent on title: tarihinde gönderildi
+      selected time: Rezervasyonunuz * tarihinde
+      booking confirmed: Rezervasyon onaylandı
+      updated by service provider: Müşteri danışmanı tarafından güncellendi
+      appointment on: Randevu tarihi
+      new request: Yeni randevu al
+
+      appointment navigator :
+        add appointment success message : Yeni randevu başarıyla oluşturuldu
+        add appointment success close : Kapat
+        add appointment error title : Yeni randevu oluşturulurken hata alındı
+        add appointment error message : Lütfen daha sonra tekrar deneyiniz
+        add appointment error close : Kapat
+        delete appointment success message : Randevu başarıyla iptal edildi
+        delete appointment success close : Kapat
+        delete appointment error title: Randevu iptal edilirken hata alındı
+        delete appointment error message : Randevu iptal edilemedi, lütfen daha sonra tekrar deneyin.
+        delete appointment error close : Kapat
+
+      cancel booking:
+        title : Randevuyu iptal et
+        text : Randevu iptal edilirse, müşteri danışmanı iptal talebiniz hakkında bilgilendirilecek ve randevunuz geçerliliğini yitirecektir.
+        accept : Talebi iptal et
+        reject : İptal etme
+
+    maintenance:
+      transit name : periyodik Bakım
+      stage name: Periyodik Bakım
+
+      additional service:
+        title: İlave Hizmetler
+        footnote: Bu ürün ücretlidir. Müşteri danışmanınız sizinle daha fazla bilgi için doğrudan iletişime geçecektir.
+        Detailed Cleaning:
+          title: Detaylı Temizlik
+          description: Uzmanlarımız tarafından yapılan detaylı iç ve dış temizlik ile otomobiliniz ilk günkü haline gelsin.
+          detail:
+            0: "Detaylı temizlik aşağıdaki hizmetleri kapsamaktadır:\n"
+            1: "- Antibakteriyel iç temizlik"
+            2: "- Motor temizleme"
+            3: "- Boya koruma"
+            4: "- Cila ve Parlatm"
+            5: "- Cam filmi"
+            6: "- Klima temizliği"
+        "AdvantagePlus : Extended Warranty for 4th Year":
+          title: "AdvantagePlus: 4. yıl Uzatılmış Garanti Paketi"
+          description: Mercedes-Benz otomobiliniz 3 yıllık garanti kapsamındaysa, garantinizi 4. yılda da tam korumayla genişletmek için size mükemmel bir ürün sunuyoruz.
+          detail:
+            0: "Mercedes-Benz otomobiliniz 3 yıllık garanti kapsamındaysa, garantinizi 4. yılda da tam korumayla genişletmek için size mükemmel bir ürün sunuyoruz.\n"
+            1: "Tam kapsamlı Advantageplus ürünü ile, otomobilinizi herhangi bir kilometre kısıtlaması olmaksızın her türlü teknik aksaklığa karşı koruyabilirsiniz.\n"
+            2: "Tüm ürün kaynaklı teknik aksaklıklar ve ilgili işçilik masrafları herhangi bir ilave ücret ödemenize gerek kalmaksızın kapsam dahilindedir.\n"
+        contactDealer: Yetkili servis ile iletişime geçin
+
+      maintenance detail:
+        part & material replacement : Parça ve Malzeme
+        overview:
+          title: Genel Bakış
+          Change the engine oil: Motor yağı değişimi
+          Replace the oil filter: Yağ filtresi değişimi
+          Replace the air filter: Hava filtresi değişimi
+          Replace the dust filter: Toz filtresi değişimi
+          Check engine: Motor kontrolü
+          Check brake & tires: "Lastik ve fren kontrolü"
+          Check exterior & interior: Dış ve iç kısımları kontrolü
+
+        detail:
+          title: Detaylar
+          tyreBrake:
+            title: Lastik, Fren
+            Perform brake test: Fren testi
+            Check brake pad thickness: Fren balatası kalınlığının kontrolü
+            Check tires (measure tire tread depth and correct tire pressure): Lastiklerin kontrolü (lastik dişi derinliği ölçümü ve lastik basıncını)
+            Check conditions of front/rear axles and axle ball joints: Ön / arka aksların ve aks mafsallı bağlantıların durum  kontrolü
+            Check condition of shock absorbers & springs: Amortisör ve yayların durum kontrolü
+            Check condition of steering and tie rods: Direksiyon ve rot kolunun kontrolü
+
+          exterior:
+            title: Dış kısım
+            Check exterior lights: Dış aydınlatma kontrolü
+            Check headlamp range & adjustment: Far ayarı
+            Clean and lubricate panoramic sliding sunroof (if exists): Panoramik sürgülü tavanı temizliği ve yağlanması (eğer varsa)
+
+          interior:
+            title: İç Kısım
+            windowShieldCheck: Cam silecekleri ve yıkama sisteminin kontrolü (Doğru sıvı seviyesi)
+            replaceKeyBat: Anahtarsız çalıştırma pil değişimi (eğer varsa)
+            instrumentLightCheck: Gösterge panelindeki lambaları ve iç aydınlatmayı kontrol edin
+            trunkLightCheck: Bagaj aydınlatmasının doğru çalışıp çalışmadığını kontrol edin
+            firstAidCheck: İlk yardım çantası kontrolü
+            symbolLightCheck: Sembol ve iç aydınlatma kontrolü
+
+          engine:
+            title: Motor
+            starterCheck: Marş kontrolü
+            checkEngineParts: Motor bölümündeki tüm görünür parçaların kontrolü
+            checkUndersideParts: Araç altındaki tüm görünür parçaların hasar ve sızdırmazlıklar açısından kontrolü
+
+        replacement:
+          title: Parça Değişimi
+          description: Aşınmış ve yıpranmış parçaların değiştirilmesi (disk, fren balataları vb. gibi) kullanıma bağlıdır ve araç kılavuzunda farklı şekilde belirtilmediği takdirde listelenmemektedir.
+          fuelFilterReplacement: Yakıt filtresi sadece dizel motorlarda her 1 yıl/15.000 km olacak şekilde değiştirilir
+          brakeFluidReplacement: Fren hidroliği her 2 yılda bir değiştirilir
+          sparkPlugReplacement: Buji dört silindirli motorlar için her 3 yıl/ 45.000 km; 6 silindirli motorlar için her 4 yıl/60.000 km olacak şekilde değiştirilir.
+          coolantReplacement: Soğutma sıvısı her 10 yıl/150.000 km olacak şekilde değiştirilir
+
+        parts:
+          engineOil: Motor Yağı
+          filterOil: Filtre (yağı, hava, toz, yakıt)
+          brakeFluid: Fren hidroliği
+          sparkPlug: Buji
+          coolant: Soğutma Sıvısı
+
+    final check:
+      transit name : Son kontrol işlemleri başlamak üzere
+      stage name: Son Kontrol
+      final check detail: Tüm süreçlerin ve ek taleplerinizin tamamlandığından emin olmak için son kontrol yapılıyor.
+
+    cleaning:
+      transit name : Temizlik işlemleri başlamak üzere
+      stage name: Temizlik
+      overview:
+        title: Genel Bakış
+        exterior:
+          title: Dış kısım
+          windscreen: Ön Cam & Pencereler
+          body: Kaporta
+          headlamp: Farlar
+          wheels: Jantlar
+          tires: Lastikler
+        interior:
+          title: İç kısım
+          dashConsole: Torpido & Konsol
+          steeringWheel: Direksiyon
+          floor: Paspaslar
+          door: Kapılar & Bagaj
+          seats: Koltuklar
+
+
+    handover:
+      transit name : işlemleri başlamak üzere
+      stage name: Teslimat
+      ready for pickup: Otomobilinizin işlemleri bitti ve alınmaya hazır
+      call your dealer: Lütfen yetkili servisinizi arayın
+      feedback:
+        title: Geri bildirim
+        Please rate our service so that we can serve the best for you: Size daha iyi hizmet verebilmemiz için lütfen  servisimize puan verin.
+        Enter your feedback here: Görüşlerinizi buraya girin
+        Submit: Gönder
+        Thank you: Teşekkürler
+        Confirmation: Görüşleriniz iletildi.
+      feedback navigator :
+        Add feedback success message : Anket gönderildi
+        Add feedback success close : Kapat
+        Add feedback error title : Anket gönderilirken hata oluştu
+        Add feedback error message : Lütfen daha sonra tekrar deneyiniz
+        Add feedback error close : Kapat
+
+# fouth tab
+
+profile:
+  title: Profilim
+  personal:
+    title: Kişisel
+    button:
+      edit: Düzenle
+      change: Değiştir
+    name: İsim
+    email address: E-posta Adresi
+    mobile number: Cep Numarası
+    password: Şifre
+  vehicle:
+    title: Araç
+    button:
+      edit : Düzenle
+  settings:
+    title: Ayarlar
+    button:
+      edit: Düzenle
+      change: Değiştir
+      logout: Çıkış yap
+    workshop: Yetkili Servis
+    workshop preferred: Tercih edilen
+    service advisor: Müşteri Danışmanı
+    service advisor preferred: Tercih edilen
+    language: Dil
+    language selected: Seçilen
+
+
+# fifth tab
+
+contactus:
+  title: Bize Ulaşın
+  contacts:
+    title: İletişim
+    button:
+      tel: "%(number)s"
+    emergency contact: Acil Yol Yardım
+    emergency details : Mercedes-Benz her anınızda bir telefon kadar yanınızda. Kaza yaptığınızda, aracınız bozulduğunda veya lastiğiniz patladığında, uzman kadromuz ile çağrı merkezimiz hizmetinize hazır.
+    emergency footnote : Bizi Mercedes-Benz İletişim Hattı’ndan arayabilirsiniz
+  social:
+    title: Sosyal Medya

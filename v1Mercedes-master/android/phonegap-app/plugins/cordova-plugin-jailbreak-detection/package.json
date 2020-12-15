@@ -1,0 +1,65 @@
+{
+  "_from": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git",
+  "_id": "cordova-plugin-jailbreak-detection@0.1.0",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-jailbreak-detection",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git",
+    "rawSpec": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git",
+    "saveSpec": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git",
+    "fetchSpec": "https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git#d436992c2fc164d3da9558623b6bb37b70dadd58",
+  "_spec": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git",
+  "_where": "/Users/hsncr/Desktop/PROJE/daimlersea-daimlersea.coc.real2/phonegap-app",
+  "author": {
+    "name": "Lee Crossley",
+    "email": "leee@hotmail.co.uk",
+    "url": "http://ilee.co.uk/"
+  },
+  "bugs": {
+    "url": "https://github.com/leecrossley/cordova-plugin-jailbreak-detection/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-jailbreak-detection",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova / PhoneGap Plugin for detecting if the device running the app is jailbroken.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/leecrossley/cordova-plugin-jailbreak-detection#readme",
+  "keywords": [
+    "cordova",
+    "jailbreak",
+    "jailbroken",
+    "cydia",
+    "detection",
+    "detector",
+    "root",
+    "rooted",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-jailbreak-detection",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git"
+  },
+  "version": "0.1.0"
+}

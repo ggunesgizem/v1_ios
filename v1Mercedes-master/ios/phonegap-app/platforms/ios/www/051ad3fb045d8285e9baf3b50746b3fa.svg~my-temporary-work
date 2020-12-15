@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="109px" height="81px" viewBox="0 0 109 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>service_flat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M46.1494081,25.8906196 C46.1494081,30.4941138 44.9922313,34.8083563 42.6778775,38.8359295 L67.4162668,81.1248024 C68.8630626,83.5705297 69.5864605,86.0149658 69.5864605,88.4606932 C69.5864605,93.207522 65.9694711,97.3784298 60.3277468,97.3784298 C55.5535806,97.3784298 53.093768,95.5086234 50.6352542,90.9051292 L26.041025,48.6175476 C17.5057092,48.6175476 5.49756415,43.2947978 2.89359153,30.2061533 L0,15.9656669 L3.76114949,13.8079 L11.2834485,26.6098753 C13.4536421,30.4941138 17.2147916,32.3639202 21.26556,32.3639202 C28.0644611,32.3639202 32.9840862,26.7545012 32.9840862,20.5691611 C32.9840862,18.4113943 32.5503072,16.6849225 31.5372904,15.1030767 L24.0149914,2.30110146 L28.0657598,0 L38.7712692,9.49365763 C43.6908943,13.9525259 46.1494081,19.4186104 46.1494081,25.8906196 L46.1494081,25.8906196 L46.1494081,25.8906196 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.477468297 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="v02_salestracker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_maintenance-" transform="translate(-263.000000, -749.000000)">
+            <g id="ball-ON" transform="translate(316.500000, 1118.000000) rotate(90.000000) translate(-316.500000, -1118.000000) translate(-380.000000, 1024.000000)">
+                <g id="service_flat" transform="translate(333.000000, 44.000000)">
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

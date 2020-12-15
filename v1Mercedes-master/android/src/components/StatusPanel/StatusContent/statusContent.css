@@ -1,0 +1,384 @@
+
+.mry {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  background: #01acef;
+}
+
+
+.status-content {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  right: 10%;
+  font-family: CorpoS_Light;
+}
+
+.status-content-appear {
+  opacity: 0;
+}
+
+.status-content-appear-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.status-content-leave {
+  opacity: 1;
+}
+
+.status-content-leave-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+.status-more-details {
+  height: 44px;
+  justify-content: space-between;
+}
+
+.msg_ico {
+  width: 44px;
+  height: 44px;
+  background-image: url("../../../assets/msg_ico.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.status_title_top_space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vw;
+}
+
+@media only screen and (max-width: 320px) {
+  .status-title {
+    font-family: CorpoS_Bold;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    width: 100%;
+  }
+
+  .status-item-list {
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+
+  .status-more-details {
+    color: #00ADEF;
+    font-size: 14px;
+    font-family: CorpoS_Bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .status-estimation {
+    color: #B9B9B9;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .booking-info, .dealer-title {
+    font-family: CorpoS_Bold;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    margin-top: 14px;
+  }
+
+  .booking-time,.special-status-item {
+    font-family: CorpoS_Light;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    margin-top: 4px;
+  }
+
+  .special-info {
+    color: #00ADEF;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  /*.dealer-title {
+    font-family:  CorpoS;
+    font-size: 12px;
+    margin-top: 10px;
+  }*/
+
+  /*.special-status-item {
+    font-family:  CorpoS;
+    font-size: 12px;
+    margin-top: 10px;
+  }*/
+
+  .no-booking-mask{
+    color: lightgray;
+    font-size: 14px;
+    font-family: CorpoS_Light;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 20%;
+  }
+
+}
+
+@media only screen and (min-width: 321px) {
+
+  .status-title {
+    font-family: CorpoS_Bold;
+    font-size: 6.5vw;
+    color: white;
+    text-align: left;
+    width: 100%;
+  }
+
+  .status-item-list {
+    color: white;
+    text-align: left;
+    font-size: 4.3vw;
+    padding-bottom: 2vw;
+  }
+
+  .status-more-details {
+    color: #00ADEF;
+    font-size: 4.3vw;
+    font-family: CorpoS_Bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .status-estimation {
+    color: #B9B9B9;
+    text-align: left;
+    font-size: 4.3vw;
+    margin-bottom: 2vw;
+  }
+
+  .booking-info, .dealer-title {
+    font-family: CorpoS_Bold;
+    font-size: 4.3vw;
+    color: white;
+    text-align: left;
+    margin-top: 4.3vw;
+  }
+
+  .booking-time, .special-status-item {
+    font-family: CorpoS_Light;
+    font-size: 4.3vw;
+    color: white;
+    text-align: left;
+  }
+
+  .special-info {
+    color: #00ADEF;
+    font-size: 4.3vw;
+    margin-top: 7vw;
+  }
+
+  /*.dealer-title {
+    font-family:  CorpoS;
+    font-size: 3.5vw;
+    margin-top: 2vw;
+  }*/
+
+  /*.special-status-item {
+    font-family:  CorpoS;
+    font-size: 3.5vw;
+    margin-top: 2vw;
+  }*/
+
+  .no-booking-mask{
+    color: lightgray;
+    font-size: 2.5vh;
+    font-family: CorpoS_Light;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+
+  .status-title {
+    font-family: CorpoS_Bold;
+    font-size: 29px;
+    color: white;
+    text-align: left;
+    width: 100%;
+  }
+
+  .status-item-list {
+    color: white;
+    text-align: left;
+    font-size: 23px;
+    padding-bottom: 6px;
+  }
+
+  .status-more-details {
+    color: #00ADEF;
+    font-size: 23px;
+    font-family: CorpoS_Bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .status-estimation {
+    color: #B9B9B9;
+    text-align: left;
+    font-size: 23px;
+    margin-bottom: 6px;
+  }
+
+  .booking-info, .dealer-title {
+    font-family: CorpoS_Bold;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  .booking-time, .special-status-item {
+    font-family: CorpoS_Light;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+  }
+
+  .special-info {
+    color: #00ADEF;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .no-booking-mask{
+    color: lightgray;
+    font-size: 18px;
+    font-family: CorpoS_Light;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 20%;
+  }
+
+  /*.dealer-title {
+    font-family:  CorpoS;
+    font-size: 20px;
+    margin-top: 20px;
+  }*/
+
+  /*.special-status-item {
+    font-family:  CorpoS;
+    font-size: 20px;
+    margin-top: 20px;
+  }*/
+}
+
+
+.status-item::before {
+  content: "\2022";
+  font-size: 8px;
+  margin-right: 10px;
+  position: relative;
+  bottom: 3px;
+}
+.status-item {
+  margin-top: 2px;
+}
+
+
+.feedback {
+  text-align: left;
+  color: #00ADEF;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.feedback-icon {
+  background: url('./FeedbackIcon.png') no-repeat;
+  width: 44px;
+  height: 44px;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.feedback-title-message {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.msg_icon_text {
+  width: calc(100% - 44px);
+}
+.status-seperator{
+  background: #646464;
+  width: 70%;
+  left: 30%;
+  height: 1px;
+  position: relative;
+}
+
+.status-pending-title {
+  color: #B9B9B9;
+  text-align: left;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 320px) {
+  .status-pending-title {
+    color: #B9B9B9;
+    text-align: left;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .status-pending-title {
+    color: #B9B9B9;
+    text-align: left;
+    font-size: 4.3vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .status-pending-title {
+    color: #B9B9B9;
+    text-align: left;
+    font-size: 23px;
+  }
+}
+
+.special-status-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.booking-confirmation-info {
+  color: #00ADEF;
+  margin-top: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
+/*.booking-time {
+  margin-top: 10px;
+  color: white;
+  text-align: left;
+  font-size: 18px;
+}*/

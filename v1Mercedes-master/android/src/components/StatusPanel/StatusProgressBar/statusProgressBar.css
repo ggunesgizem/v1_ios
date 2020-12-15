@@ -1,0 +1,287 @@
+
+.status-progress-bar-start-time {
+  color: #00ADEF;
+  font-size: 16px;
+  position: fixed;
+  left: 0px;
+  font-weight: lighter;
+}
+
+.status-progress-indicator-group {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.status-progress-time-group {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.status-progress-bar-icon {
+  background: black;
+  border-radius: 50%;
+  border: 2px solid #25E2FF;
+  width: 12vw;
+  height: 12vw;
+  max-width: 52px;
+  max-height: 52px;
+  margin: auto;
+  transition:border linear .2s,box-shadow linear .5s;
+  -moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+  -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+  box-shadow:0 0 8px rgba(37,226,255,.5);
+  -moz-box-shadow:0 0 8px rgba(37,226,255,.5);
+  -webkit-box-shadow: inset 0 0 10px rgba(37,226,255,3), 0 0 10px rgba(37,226,255,3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-progress-bar-body-booking {
+  height: 55vw;
+  width: 5vw;
+  max-width: 20px;
+  margin: -2px auto auto auto;
+  border: 1px solid #646464;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: 0;
+  overflow: hidden;
+}
+
+.status-progress-bar-body-maintenance{
+  height: 65vw;
+  width: 5vw;
+  max-width: 20px;
+  margin: -2px auto auto auto;
+  border: 1px solid #646464;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: 0;
+  overflow: hidden;
+}
+
+.status-progress-bar-body-finalCheck{
+  height: 65vw;
+  width: 5vw;
+  max-width: 20px;
+  margin: -2px auto auto auto;
+  border: 1px solid #646464;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: 0;
+  overflow: hidden;
+}
+
+.status-progress-bar-fill {
+  margin-left: 0px;
+  background: #25E2FF;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition:border linear .2s,box-shadow linear .5s;
+  -moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+  -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+  box-shadow:0 0 8px rgba(37,226,255,.5);
+  -moz-box-shadow:0 0 8px rgba(37,226,255,.5);
+  -webkit-box-shadow: inset 0 0 10px rgba(37,226,255,3), 0 0 10px rgba(37,226,255,3);
+  background: linear-gradient(to bottom, rgba(36,222,253,1) , rgba(1,155,213,1))
+}
+
+.status-progress-bar-line-last {
+  margin: auto;
+  width: 0;
+  background: #646464;
+  flex-grow: 1;
+}
+
+.status-progress-bar-line {
+  margin: auto;
+  width: 0.5vw;
+  max-width: 3px;
+  background: #646464;
+  flex-grow: 1;
+}
+.status-icon {
+  color: white;
+  font-size: 1.5em;
+  width: 70%;
+  height: 50%;
+}
+
+.status-progress-bar-point{
+  background: #646464;
+  width: 3.5vw;
+  height: 3.5vw;
+  max-width: 16px;
+  max-height: 16px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.status-progress-check {
+  width: 3.5vw;
+  height: 3.5vw;
+  max-width: 18px;
+  max-height: 18px;
+  background-image: url("../../../assets/ok.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 320px) {
+  .status-time-high, .status-time-low {
+    color: #00ADEF;
+    font-size: 13px;
+    height: 12vw;
+    max-height: 52px;
+    font-family: CorpoS_Light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status-time-collapsed {
+    height: 100%;
+    color: #00ADEF;
+    font-size: 13px;
+    font-family: CorpoS_Light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status-progress-bar-expanded {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1px;
+  }
+
+  .status-progress-bar-collapsed {
+    height: 100%;
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .status-time-high, .status-time-low {
+    color: #00ADEF;
+    font-size: 3.5vw;
+    height: 12vw;
+    max-height: 52px;
+    font-family: CorpoS_Light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status-time-collapsed {
+    height: 100%;
+    color: #00ADEF;
+    font-size: 3.5vw;
+    font-family: CorpoS_Light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status-progress-bar-expanded {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1px;
+  }
+
+  .status-progress-bar-collapsed {
+    height: 100%;
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .status-time-high, .status-time-low {
+    color: #00ADEF;
+    font-size: 15px;
+    height: 12vw;
+    max-height: 52px;
+    font-family: CorpoS_Light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status-time-collapsed {
+    height: 100%;
+    color: #00ADEF;
+    font-size: 15px;
+    font-family: CorpoS_Light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status-progress-bar-expanded {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1px;
+    flex: 1;
+  }
+
+  .status-progress-bar-collapsed {
+    height: 100%;
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1px;
+  }
+}
+
+.start-icon {
+  background-image: url("../../../assets/start.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.exterior {
+  margin-top: 6px;
+  font-size: 16px;
+  text-align: left;
+  color: #999999;
+}

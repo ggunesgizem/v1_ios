@@ -1,0 +1,23 @@
+.textButton {
+  width: auto;
+  display: inline;
+  font-size: var(--textButton-font-size);
+  font-family: var(--textButton-font);
+  color: var(--textButton-color);
+}
+
+.tb_paddingTop {
+  padding-top: var(--textButton-padding);
+}
+
+.tb_paddingBottom {
+  padding-bottom: var(--textButton-padding);
+}
+
+.tb_paddingLeft {
+  padding-left: var(--textButton-padding);
+}
+
+.tb_paddingRight {
+  padding-right: var(--textButton-padding);
+}

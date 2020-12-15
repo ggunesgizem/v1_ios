@@ -1,0 +1,132 @@
+.glyphicon-ok {
+  color:green;
+}
+
+.vehicle-list-container {
+  width: 100%;
+  height: 100%;
+}
+
+.vehicle-card-combined-container {
+  width: 100%;
+  height: 100%;
+  /*padding-top: 100px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.add-vehicle-button-group {
+  width: 10%;
+  margin: auto;
+  font-family: CorpoS_Bold;
+  font-size: 18px;
+  color: rgba(0, 173, 239, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*.add-vehicle-icon {
+  font-size: 15px;
+  margin-right: 3px;
+}*/
+
+@media only screen and (max-width: 320px) {
+  .add-vehicle-icon  {
+    font-size: 13px;
+    margin-right: 3px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .add-vehicle-icon  {
+    font-size: 4vw;
+    margin-right: 2vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .add-vehicle-icon  {
+    font-size: 18px;
+    margin-right: 3px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .add-vehicle-button-group {
+    font-size: 13px;
+    margin-right: 3px;
+    width: 10%;
+    margin: auto;
+    font-family: CorpoS_Bold;
+    color: rgba(0, 173, 239, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .add-vehicle-button-group {
+    font-size: 4vw;
+    margin-right: 2vw;
+    width: 10%;
+    margin: auto;
+    font-family: CorpoS_Bold;
+    color: rgba(0, 173, 239, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .add-vehicle-button-group {
+    font-size: 20px;
+    margin-right: 3px;
+    width: 10%;
+    margin: auto;
+    font-family: CorpoS_Bold;
+    color: rgba(0, 173, 239, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.select-vehicle-btn {
+  width: 90%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+}
+
+.slick-dots li button:before  {
+  color: white;
+  opacity: .50;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .85;
+  color: white;
+}
+
+.slick-dots {
+  top: 0px;
+  height: 25px;
+}
+
+.slick-slider, .slick-list {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-track {
+  height: 100%;
+}

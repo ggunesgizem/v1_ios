@@ -1,0 +1,221 @@
+.landing-page-status-tracker-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-image: url("./shadow_bottom.png");
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+
+.landing-page-status-tracker-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height:100%;
+}
+
+.landing-page-status-time {
+  font-family: CorpoS;
+  font-size: 13px;
+  text-align: right;
+  color: #00ADEF;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page-progress-bar-line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.landing-page-status-tracker-bar-icon-inactive {
+  background: black;
+  border-radius: 50%;
+  border: 3px solid rgba(100,100,100,1);
+  width: var(--veh-status-icon-container-width);
+  height: var(--veh-status-icon-container-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page-status-tracker-bar-icon {
+  background: black;
+  border-radius: 50%;
+  border: 2px solid #25E2FF;
+  width: var(--veh-status-icon-container-width);
+  height: var(--veh-status-icon-container-height);
+  transition:border linear .2s,box-shadow linear .5s;
+  -moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+  -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+  box-shadow:0 0 8px rgba(37,226,255,.5);
+  -moz-box-shadow:0 0 8px rgba(37,226,255,.5);
+  -webkit-box-shadow: inset 0 0 10px rgba(37,226,255,3), 0 0 10px rgba(37,226,255,3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page-progress-bar-line-upper {
+  width: 3px;
+  height: calc(50% - (var(--veh-status-icon-container-height) / 2));
+  background: -webkit-linear-gradient(rgba(20, 20, 20, 1), rgba(0, 173, 239, 1));
+}
+
+.landing-page-progress-bar-line-lower {
+  width: 3px;
+  height: calc(50% - (var(--veh-status-icon-container-height) / 2));
+  background: -webkit-linear-gradient(rgba(0, 173, 239, 1),rgba(100, 100, 100, 1));
+}
+
+.landing-page-progress-bar-line-lower-inactive {
+  width: 3px;
+  height:calc(50% - (var(--veh-status-icon-container-height) / 2));
+  margin: auto;
+  background-color: rgba(100,100,100,1);
+}
+
+.landing-page-current-status-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.landing-page-current-status-title {
+  font-family: CorpoS_Bold;
+  text-align: left;
+  color: white;
+  font-size: 25px;
+}
+
+.landing-page-current-status-title-make-booking {
+  font-family: CorpoS_Bold;
+  text-align: left;
+  color: #00adef;
+  font-size: 25px;
+}
+
+.landing-page-current-status-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  font-family: CorpoS_Light, Times, serif;
+  color: rgba(200,200,200,1);
+  text-align: left;
+}
+
+.lpst_topText {
+  font-size: 14px;
+  color: #aaaaaa;
+  font-family: CorpoS;
+  letter-spacing: -0.6px;
+}
+
+.lpst_topText_imp {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: CorpoS_Bold;
+  letter-spacing: -0.7px;
+}
+
+.lpst_topText_footer {
+  font-size: 14px;
+  font-family: CorpoS;
+  color: #aaaaaa;
+  padding-top: 10px;
+  letter-spacing: -0.6px;
+}
+
+@media only screen and (max-width: 320px) {
+  .landing-page-current-status-info {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .landing-page-current-status-info {
+    font-size: 3.2vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .landing-page-current-status-info {
+    font-size: 18px;
+  }
+}
+
+.landing-page-current-status-create-booking {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: CorpoS_Bold;
+}
+
+.landing-page-current-status-time {
+  font-family: CorpoS_Bold;
+}
+
+.status-icon-0 {
+  background-image: url("./calendar-icon.png");
+  background-size:100% 100%;
+  width: var(--veh-status-icon-width);
+  height: var(--veh-status-icon-heigth);
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.status-icon-0-active {
+  background-image: url("./calendar-icon-active.png");
+  background-size:100%;
+  width: 25px;
+  height: 20px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.status-icon-1-active {
+  background-image: url("./service-icon-active.png");
+  background-size:100%;
+  width: 25px;
+  height: 20px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.status-icon-2-active {
+  background-image: url("./check-icon.png");
+  background-size:100%;
+  width: 20px;
+  height: 25px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.status-icon-3-active {
+  background-image: url("./cleaning-icon.png");
+  background-size:100%;
+  width: 20px;
+  height: 25px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.status-icon-4-active {
+  background-image: url("./drive-icon.png");
+  background-size:100%;
+  width: 25px;
+  height: 20px;
+  margin: auto;
+  background-repeat: no-repeat;
+}

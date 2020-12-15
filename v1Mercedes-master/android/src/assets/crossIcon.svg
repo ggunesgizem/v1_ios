@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #000000;">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>crossIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="crossIcon">
+            <rect id="Rectangle-11" fill="#000000" x="0" y="0" width="44" height="44"></rect>
+            <g id="close_abort_small" transform="translate(15.000000, 15.000000)" fill="#FFFFFF">
+                <g id="Ebene_37">
+                    <polygon id="Shape" points="13.6950506 12.0494796 12.0672968 13.6775696 6.90097697 8.9002029 1.69902268 13.6775696 0.071268858 12.0494796 4.88393382 6.91845801 0.0359706029 1.7168399 1.66372443 0.0887498986 6.90097697 4.90141486 12.1025951 0.0887498986 13.7303489 1.7168399 8.88238569 6.91845801"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

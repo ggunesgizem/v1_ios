@@ -1,0 +1,184 @@
+button:active {
+  outline: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+  border: none;
+}
+
+.content-wrapper {
+  background-color: white;
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+}
+
+.summary-content-wrapper {
+  background-color: white;
+  height: 100%;
+}
+
+.vehicle-list-content-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.landing-page-content-wrapper {
+  /*padding-top: 67px;*/
+  height: 100%;
+}
+
+.registration-page-content-wrapper {
+  height: 100%;
+  background-color: white;
+  width: 100%;
+}
+
+.date-content-wrapper {
+  width: 100%;
+}
+
+.select-date-time-container {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+}
+
+.select-service-page-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.select-service-content-wrapper {
+  background-color: white;
+  width: 100%;
+}
+
+.title-bar-spacer {
+  width: 100vw;
+  height: var(--top-header-heigth);
+  max-height: 67px;
+  min-height: 45px;
+}
+
+.sub-title-bar-spacer {
+  width: 100vw;
+  height: 6vh;
+  max-height: 64px;
+  min-height: 42px;
+}
+
+.page-switch-spacer {
+  width: 100%;
+  height: 6vh;
+}
+
+
+.productsMainContainer, .newsMainContainer, .vehicleMainContainer {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  display: none;
+  position: relative;
+}
+
+.productsMains, .newsMains {
+  width: 100%;
+  height: 100%;
+}
+
+#mainPageContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#modalPageContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+#vehUpdateMain {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 20;
+  background-color: white;
+}
+
+#productsAccessoriesMain, #productsCollectionsMain, #campaignMain {
+  width: 100%;
+  height: calc(100% - var(--main-nav-height));
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  background-color: white;
+}
+
+#productsAccessoriesMain_topbar, #productsCollectionsMain_topbar, #campaignMain_topbar, #vehUpdateMain_topbar  {
+  width: 100%;
+  height: var(--top-container-height);
+  background-color: black;
+}
+
+#productsAccessoriesMain_content, #productsCollectionsMain_content, #campaignMain_content, #vehUpdateMain_content {
+  width: 100%;
+  height: calc(100% - var(--top-container-height));
+  background-color: white;
+}
+
+.interestedIcon {
+  width: var(--icon-star-width);
+  height: var(--icon-star-height);
+  background-image: url("../assets/star.svg");
+  background-size: 75% 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.interestedIcon_white {
+  width: var(--icon-star-width);
+  height: var(--icon-star-height);
+  background-image: url("../assets/star_white.svg");
+  background-size: 75% 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#vehMain {
+  width: 100%;
+  height: 100%;
+}
+
+.StatusTracker_content {
+  width: 100%;
+  height: calc(100% - var(--top-container-height));
+  overflow-y: auto;
+  padding-top: 15px;
+}
+
+.statusTrackerMain {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 21;
+  background-image: linear-gradient(to bottom, #2e2e2e, #000000);
+}

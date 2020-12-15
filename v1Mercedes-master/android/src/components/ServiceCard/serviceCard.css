@@ -1,0 +1,110 @@
+.service-card-container {
+  background-color: white;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.service-card-image {
+  width: 100%;
+}
+
+.service-card-text-container {
+  position: relative;
+  top: -50px;
+}
+
+.service-card-description-container {
+  height: 30vh;
+}
+
+.service-card-text-header {
+  height:51px;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+}
+
+.service-card-description {
+  font-family: CorpoS_Light;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 80%;
+  padding: 0px;
+  border: 0;
+}
+
+
+@media only screen and (max-width: 320px) {
+  .service-card-name {
+    font-family: CorpoS_Bold;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 15px;
+    margin-right: 10%;
+  }
+
+  .service-card-description {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .service-card-name {
+    font-family: CorpoS_Bold;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 4.3vw;
+    margin-right: 10%;
+  }
+
+  .service-card-description {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .service-card-name {
+    font-family: CorpoS_Bold;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right: 10%;
+  }
+
+  .service-card-description {
+    font-size: 18px;
+  }
+}
+
+
+
+.service-card-price {
+  font-family: CorpoS_Bold;
+  display: flex;
+  text-align: left;
+  font-size: 18px;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  align-items: center;
+  height: 50px;
+}
+
+.service-card-price-header {
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1));
+  height: 42px;
+}
+
+.service-card-price-container {
+  height: 60px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.service-card-chat {
+
+}

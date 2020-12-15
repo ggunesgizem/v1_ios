@@ -1,0 +1,89 @@
+.additionalServiceDetailImage {
+  width: 100%;
+  height: var(--accessory-detail-image-height);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  position: relative;
+}
+
+.service-detail-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - var(--main-nav-height));
+  overflow: scroll;
+  font-family: CorpoPro_Regular, CorpoALig;
+  -webkit-overflow-scrolling: touch;
+  color: white;
+  z-index: 20;
+}
+.service-detail-container-inner {
+  width: 100%;
+  height: calc(100% - var(--top-container-height));
+  background-color: white;
+}
+
+.service-detail-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin-top: 40px;
+  padding-right: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.service-detail-closeBtn {
+  color: rgba(153,153,153,1);
+  font-size: 20px;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+.additional-service-accept-btn {
+  margin-bottom: 10%;
+}
+
+/*.service-detail-title {
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 25%;
+}*/
+
+/*.service-detail-text {
+  text-align: left;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 16px;
+  font-family: CorpoS_Light;
+}
+
+.service-detail-text-title {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: CorpoS_Bold;
+  font-size: 18px;
+}*/
+
+/*.service-remark-text {
+  padding: 10%;
+  color: lightgray;
+  font-size: 13px;
+  font-family: CorpoALig;
+  text-align: left;
+}*/

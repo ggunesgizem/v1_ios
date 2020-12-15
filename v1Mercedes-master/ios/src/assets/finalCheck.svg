@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="98px" viewBox="0 0 72 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="v02_salestracker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1_Finalcheck_open" transform="translate(-281.000000, -951.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(223.000000, 907.000000)">
+                <g id="ball-ON" transform="translate(94.000000, 558.500000) rotate(90.000000) translate(-94.000000, -558.500000) translate(-464.500000, 464.500000)">
+                    <path d="M57,45 L129,45 L129,143 L57,143 L57,45 L57,45 L57,45 Z M114.756241,68.4217316 L114.756241,62.2578268 L71.2451493,62.2578268 L71.2451493,68.4217316 L114.756241,68.4217316 L114.756241,68.4217316 L114.756241,68.4217316 Z M114.756241,80.2861418 L114.756241,74.122237 L71.2451493,74.122237 L71.2451493,80.2861418 L114.756241,80.2861418 L114.756241,80.2861418 L114.756241,80.2861418 Z M91.9595536,92.6623663 L70.9004189,92.6623663 L70.9004189,86.4984615 L91.9595536,86.4984615 L91.9595536,92.6623663 Z M72.1500666,115.331823 L75.9121157,111.230776 L85.2144746,117.960289 L110.50728,92.616718 L113.851323,96.0873726 L85.9462324,128.582051 L72.1500666,115.331823 Z" id="Combined-Shape" transform="translate(93.000000, 94.000000) scale(-1, -1) rotate(90.000000) translate(-93.000000, -94.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

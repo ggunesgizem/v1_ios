@@ -1,0 +1,143 @@
+.vehicle-card-plate {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vehicle-card-container {
+  width: 100%;
+  height: 100%;
+  display: flex!important;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.vehicle-card-container_topmain {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vehicle-card-container-lowerZone  {
+  width: 100%;
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.vehicle-card-image {
+  width: 90%;
+  height: calc(100% - 40px);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+}
+
+.vehicle-card-image-alt {
+  width: 80%;
+}
+
+.add_vehicle_button_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add_vehicle_button {
+  color: #00adef;
+  font-family: CorpoS_Bold;
+  font-size: 22px;
+}
+
+#vehCombinedPageSwap .slick-dots li.slick-active:last-child {
+  background-image: url("../../assets/addIcon_blue.png");
+}
+
+#vehCombinedPageSwap .slick-dots li:last-child {
+  background-image: url("../../assets/addIcon_gray.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1!important;
+  color: #00adef!important;
+}
+
+.slick-dots li button:before {
+  opacity: 1!important;
+  color: #999999!important;
+}
+
+
+#vehCombinedPageSwap .slick-dots li:last-child * {
+  opacity: 0;
+}
+@media only screen and (max-width: 320px) {
+  .vehicle-card-plate {
+    font-family: CorpoS_Bold;
+    font-size: 23px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .vehicle-card-plate {
+    font-family: CorpoS_Bold;
+    font-size: 6.5vw;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .vehicle-card-plate {
+    font-family: CorpoS_Bold;
+    font-size: 29px;
+    color: white;
+  }
+}
+
+/*.vehicle-card-class {
+  color: white;
+  font-size: 20px;
+  font-family: CorpoS_Light;
+}*/
+
+.vehicle-card-class {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  color: #aaaaaa;
+  font-family: CorpoS_Light, Times, serif;
+  letter-spacing: -0.9px;
+}
+
+@media only screen and (max-width: 320px) {
+  .vehicle-card-class {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .vehicle-card-class {
+    font-size: 3.5vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .vehicle-card-class {
+    font-size: 20px;
+  }
+}

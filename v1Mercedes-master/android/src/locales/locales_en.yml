@@ -1,0 +1,543 @@
+system:
+  session expired : Session expired
+  network error : Network error, please try again later
+  network error 2 : Please reload the app for the latest information
+
+login:
+  title: Welcome to the privileged world of Mercedes-Benz After-Sales Services
+  login: Login
+  register: Register
+
+notification:
+  general:
+    ok: OK
+  location:
+    title: Do you want Servisim to use your current location?
+    text: Servisim app may ask for your permission to use your geolocation information. Your location information will be used to locate nearby workshops and provide navigation. You can turn off or turn on the geolocation feature by going to Privacy -> Location Services -> Servisim on your iPhone's Settings page.
+    accept: Accept
+    reject: Reject
+    textAndroid: The "Servisim" application uses this information to access your current location. Your current location information is used to determine the service points on the map and for navigation purposes. You can enable or disable your Android settings at any point. Android Settings> Applications> My Service> Permissions> Location or Android Settings> Applications> Application Manager> My Service> Permissions> Location or Android Settings> General> Applications> My Service> Permissions> Location
+
+  push notification:
+    title: Do you want to receive push notification from Servisim?
+    text: Servisim app may ask for your permission to enable push notification feature. Once enabled, the app will send you push notifications for maintenance status update on your vehicle. You can turn off or turn on the push notification feature by going to Notifications -> Servisim on your iPhone's Settings page.
+    accept: Accept
+    reject: Reject
+    textAndroid: You need your consent before the "Servisim" application can send you notifications. When you turn on the notification feature, the instant status of your application tool in the service sends you notification of new campaigns and events. You can enable and disable notifications from your Android settings at any point. Android Settings> Applications> My Service> Notifications or Android Settings> Applications> Application Manager> My Service> Notifications or Android Settings> General> Applications> My Service> Notifications
+
+
+legalTerm:
+  termOfUseTitle: Terms of Use
+  termOfUseSubTitle: End User Terms of Use for the Aftersales Status Tracker
+  accept: Accept
+  decline: Decline
+  declineAlert: You have to accept the Terms of Use in order to use this app.
+
+#modals
+
+booking:
+  title: New Request
+  workshop:
+    title: Select a workshop
+    button:
+      back: Workshop list
+      select this workshop: Select this workshop
+    search bar:
+      hint text: Search for city
+    search result:
+      results : Results
+      nearby : Nearby
+    traffic not available: Traffic not available
+    preferred: Preferred
+    selected: Selected
+    hours: hours
+    mins: mins
+    drive away: "%(distance)s drive away"
+    distance away : "%(distance)s away"
+    get direction: Get direction
+    set as preferred workshop: Set as preferred workshop
+    set as preferred : Set as preferred
+    locating nearby dealers: Locating nearby dealers...
+    no nearby dealer found: No nearby dealer found
+    preference:
+      title: Workshop Preferences
+      button:
+        next: Next
+  agent:
+    title: Select a service advisor
+    button:
+      next: Next
+    not found 1: There are currently no agents in this workshop.
+    not found 2: Please select another dealer.
+    select service advisor: Select Service Advisor
+    select this agent: Select this agent
+    mobile: Mobile
+    email: Email
+    save as preferences : Save preferences
+    selected: Selected
+  select date:
+    title: Input appointment preferences
+    notification:
+      sunday alert:
+        title: This dealer does not open on Sunday. Please choose another date.
+        message: Please choose another date.
+        close: Close
+    button:
+      next: Next
+      cancel: Cancel
+    i want an appointment: I want an appointment
+    or alternatively: or alternatively
+    form:
+      date: Date
+      time: Appointment time
+  services:
+    title: Service preferences
+    button:
+      next: Next
+    form:
+      validation:
+        required: Required
+        not complete: The following information is not complete
+        please specify at least a service : Please specify at least a service
+    general:
+      title: Service details
+      mileage of your vehicle: Mileage of your vehicle (km)
+      maintenance: Maintenance
+      general inspection: General inspection
+      repair: Repair
+      paint/body: Paint/Body
+      appointmentSelected: Periodic Maintanence
+    tyre:
+      title: Tyre
+      tyre change: Tyre change
+      tyre change request: Specify tyre change requirement
+    others:
+      title: Other services
+      other request hint : Other request (optional)
+      valet service: Valet service
+      replacement car: Replacement car
+  summary:
+    title: Confirm request
+    button:
+      confirm booking: Confirm booking
+    notification:
+      add appointment success message : Successfully added new appointment
+      add appointment success close : Close
+      add appointment error title : Error adding new appointment
+      add appointment error message : Please try again later
+      add appointment error close : Close
+      delete appointment success message : Successfully deleted appointment
+      delete appointment success close : Close
+      delete appointment error title: Error canceling appointment
+      delete appointment error message : Appointment not deleted, please try again later
+      delete appointment error close : Close
+    preferred appointment schedule : Preferred appointment schedule
+    or alternatively: Or alternatively
+    workshop: Workshop
+    service Agent: Service Agent
+    service related requests: Service related requests
+    tyre change requirement: Tyre change requirement
+    other requests: Other requests
+    general:
+      title: Service details
+      mileage of your vehicle: Mileage of your vehicle (km)
+      maintenance: Maintenance
+      general inspection: General inspection
+      repair: Repair
+      paint/body: Paint/Body
+      appointmentSelected: Periodic Maintanence
+    tyre:
+      title: Tyre
+      tyre change: Tyre change
+      tyre change request: Specify tyre change requirement
+    others:
+      title: Other services
+      other request hint : Other request (optional)
+      valet service: Valet service
+      replacement car: Replacement car
+    email:
+      general:
+        maintenance: Periyodik bakım
+        general inspection: TÜV Muayenesi
+        repair: Onarım
+        paint/body: Kaporta/Boya
+      tyre:
+        tyre change: Lastik değişimi
+      others:
+        valet service: Vale hizmeti
+        replacement car: İkame araç
+
+booking preference:
+  workshop:
+    title: Workshop Preferences
+    button:
+      next: Next
+    search bar:
+      hint text: Search for city
+    search result:
+      results : Results
+      nearby : Nearby
+    traffic not available: Traffic not available
+    preferred: Preferred
+    selected: Selected
+    hours: hours
+    mins: mins
+    drive away: "%(distance)s drive away"
+    distance away : "%(distance)s away"
+    get direction: Get direction
+    set as preferred workshop: Set as preferred workshop
+    set as preferred : Set as preferred
+    locating nearby dealers: Locating nearby dealers...
+    no nearby dealer found: No nearby dealer found
+  agent:
+    title: Select a service advisor
+    button:
+      next: Next
+    not found 1: There are currently no agents in this workshop.
+    not found 2: Please select another dealer.
+    select service advisor: Select Service Advisor
+    select this agent: Select this agent
+    mobile: Mobile
+    email: Email
+    save as preferences : Save preferences
+    selected: Selected
+
+vehicleadd:
+  title: New Vehicle
+  button:
+    add: Add
+  notification:
+    add:
+      success:
+        message: Successfully added vehicle
+        close: Close
+      error:
+        primary:
+          title: Error While registering new vehicle
+          message: Please try again later
+          close: Close
+        secondary:
+          title: Error While registering new vehicle
+          message: Unable to create vehicle, vehicle plate number already exist
+          close: Close
+  form:
+    validation:
+      required: Required
+      invaild input: Invalid input
+    plate number: Plate Number
+    series: Series
+    no series data: No Data available
+    model: Model
+    select model first: Please select a series first
+    production year: Production Year
+
+vehicleedit:
+  button:
+    save: Save
+    remove: Remove
+  notification:
+    edit:
+      success:
+        message: Vehicle Updated
+        close: Close
+      error:
+        title: Error While updating vehicle
+        message: Please try again later
+        close: Close
+    delete:
+      comfirmation:
+        title: Removal of vehicle from your account
+        message: Removal of this vehicle will be deleted permanently all service history of this vehicle from the application.
+        accept: Accept
+        reject: Reject
+      success:
+        message: Vehicle Deleted
+        close: Close
+      error:
+        primary:
+          title: Error While deleting vehicle
+          message: Please try again later
+          close: Close
+        secondary:
+          title: Error While deleting vehicle
+          message: Unable to delete vehicle as this vehicle has an ongoing appointment
+          close: Close
+  form:
+    validation:
+      required: Required
+      invaild input: Invalid input
+    mileage: Mileage
+    series: Series
+    no series data: No Data available
+    model: Model
+    select model first: Please select a series first
+    production year: Production Year
+
+# first tab
+mb world:
+  title: MB world
+  campaign:
+    title: Campaign
+  others:
+    title: Others
+  lead :
+    toc 1 : The prices do not include labour costs.
+    toc 2 : Pictures may differ from original product.
+    toc 3 : Product number and prices may differ for each vehicle type.
+    toc 4 : Please get in contact with your dealer.
+    recommended price : Recommended list price
+  interest :
+    interested : Interested
+    express interest : Express Interest
+  remove interest:
+    title: Remove Interest
+    text: Your service advisor will be informed of this new action, at the end of the day. Please contact your service advior for more information.
+    accept: Remove now
+    reject: Do not remove
+# second tab
+
+products:
+  title: Products
+  accessories:
+    title: Accessories
+  collections:
+    title: Collections
+  lead :
+    toc 1 : The prices do not include labour costs.
+    toc 2 : Pictures may differ from original product.
+    toc 3 : Product number and prices may differ for each vehicle type.
+    toc 4 : Please get in contact with your dealer.
+    recommended price : Recommended list price
+  interest :
+    interested : Interested
+    express interest : Express Interest
+  remove interest:
+    title: Remove Interest
+    text: Your service advisor will be informed of this new action, at the end of the day. Please contact your service advior for more information.
+    accept: Remove now
+    reject: Do not remove
+
+# third tab
+
+my vehicle:
+  title: My Vehicle
+  add new vehicle: Add new vehicle
+  or: or
+  status tracker:
+    title: Status Tracker
+    estimated time left: Estimated time left
+    completed: Completed
+    in transit to: In transit to
+    hours: Hours
+    mins: Mins
+    minutes: Minutes
+    requesting appointment on: Requesting appointment on
+    estimated time to complete : Estimated completion at
+    contact customer consultant : Contact customer consultant
+    cancel booking request: Cancel Booking Request
+    service duration: Service Duration
+    more detail: More Details
+    additional services: Additional Services
+    service status: Service Status
+    footnote: For more detailed information please get in touch with your service advisor.
+
+    booking:
+      stage name: Booking Confirmed
+      make booking text: No booking
+      booking pending: Booking Pending
+      sent on title: Sent on
+      selected time: Your appointment is on
+      booking confirmed: Booking Confirmed
+      updated by service provider: Updated by service provider
+      appointment on: Appointment on
+      new request: Make a new request
+
+      appointment navigator :
+        add appointment success message : Successfully added new appointment
+        add appointment success close : Close
+        add appointment error title : Error adding new appointment
+        add appointment error message : Please try again later
+        add appointment error close : Close
+        delete appointment success message : Successfully deleted appointment
+        delete appointment success close : Close
+        delete appointment error title: Error canceling appointment
+        delete appointment error message : Appointment not deleted, please try again later
+        delete appointment error close : Close
+
+      cancel booking:
+        title : Cancel Booking Request
+        text : If I cancel this booking request, my service advisor will be notified and this request will be invalid.
+        accept : Cancel Request
+        reject : Do not cancel
+
+    maintenance:
+      stage name: Maintenance
+
+      additional service:
+        title: Additional Service
+        footnote: These services vary from workshop to workshop. There will be some additional prices to be paid. The service advisor will contact you directly for more information.
+        Detailed Cleaning:
+          title: Detailed Cleaning
+          description: Restore your cars original beauty with a detailed exterior & interior cleaning done by our experts.
+          detail:
+            0: "Detailed cleaning including the following services:\n"
+            1: "- Anti-bacterial interior cleaning"
+            2: "- Engine cleaning"
+            3: "- Exterior paint protection"
+            4: "- Polishing"
+            5: "- Window tint films"
+            6: "- Air conditioner cleaning"
+        "AdvantagePlus : Extended Warranty for 4th Year":
+          title: "AdvantagePlus : Extended Warranty for 4th Year"
+          description: If your Mercedes-Benz car is within 3 years warranty, we provide you an excellent product to extend your warranty to the 4 th year with a full protection!
+          detail:
+            0: If your Mercedes-Benz car is within 3 years warranty, we provide you an excellent product to extend your warranty to the 4 th year with a full protection!
+            1: With the full scope Advantageplus product, you can protect you vehicle to any kind of technical breakdowns without any mileage limitations.
+            2: All product related technical breakdowns are covered and will be fixed free of charge including related labour costs.
+        contactDealer: Contact Dealer
+
+      maintenance detail:
+        part & material replacement : Part & Material Replacement
+        overview:
+          title: Overview
+          Change the engine oil: Change the engine oil
+          Replace the oil filter: Replace the oil filter
+          Replace the air filter: Replace the air filter
+          Replace the dust filter: Replace the dust filter
+          Check engine: Check engine
+          Check brake & tires: Check brake & tires
+          Check exterior & interior: Check exterior & interior
+
+        detail:
+          title: Details
+          tyreBrake:
+            title: Tyre, Brake
+            Perform brake test: Perform brake test
+            Check brake pad thickness: Check brake pad thickness
+            Check tires (measure tire tread depth and correct tire pressure): Check tires (measure tire tread depth and correct tire pressure)
+            Check conditions of front/rear axles and axle ball joints: Check conditions of front/rear axles and axle ball joints
+            Check condition of shock absorbers & springs: Check condition of shock absorbers & springs
+            Check condition of steering and tie rods: Check condition of steering and tie rods
+
+          exterior:
+            title: Exterior
+            Check exterior lights: Check exterior lights
+            Check headlamp range & adjustment: Check headlamp range & adjustment
+            Clean and lubricate panoramic sliding sunroof (if exists): Clean and lubricate panoramic sliding sunroof (if exists)
+
+          interior:
+            title: Interior
+            windowShieldCheck: Check windshield wipers & washer system (Correct fluid level)
+            replaceKeyBat: Replace battery for Keyless-Go key (if exists)
+            instrumentLightCheck: Check lamps in the instrument cluster and interior illumination
+            trunkLightCheck: Check trunk illumination for proper operation
+            firstAidCheck: Check first aid bag
+            symbolLightCheck: Check symbol and interior lightning
+
+          engine:
+            title: Engine
+            starterCheck: Check starter
+            checkEngineParts: Check all visible parts in engine compartment
+            checkUndersideParts: Check all visible parts in vehicle underside for damage and leaks
+
+        replacement:
+          title: Parts Replacement
+          description: Wear & tear parts replacement (like disc or brake pads etc) depend on usage and are not listed if not stated differently in vehicles manual.
+          fuelFilterReplacement: fuel filter is replaced only for diesel engines every 1 year/15.000 km
+          brakeFluidReplacement: brake fluids are replaced every 2 years
+          sparkPlugReplacement: spark plugs are replaced every 3 years / 45.000 km for 4 clynder engines; every 4 years / 60.000 km for 6 clynder engines
+          coolantReplacement: coolant is replaced every 10 years/150.000 km
+
+        parts:
+          engineOil: Engine Oil
+          filterOil: Filter (oil, air, dust, fuel)
+          brakeFluid: Brake fluid
+          sparkPlug: Spark plug
+          coolant: Coolant
+
+    final check:
+      stage name: Final Check
+      final check detail: Final check under progress to ensure that all processes and your additional requests have been accomplished.
+
+    cleaning:
+      transit name : Cleaning is about to begin
+      stage name: Cleaning
+      overview:
+        title: Overview
+        exterior:
+          title: Exterior
+          windscreen: Windscreen & windows
+          body: Body
+          headlamp: Headlamps
+          wheels: Wheels
+          tires: Tires
+        interior:
+          title: Interior
+          dashConsole: Dash & Console
+          steeringWheel: Steering Wheel
+          floor: Floor mats
+          door: Doors & Trunk
+          seats: Seats
+
+    handover:
+      stage name: Handover
+      ready for pickup: Your car is ready to pick up
+      call your dealer: Please call your dealer
+      feedback:
+        title: Feedback
+        Please rate our service so that we can serve the best for you: Please rate our service so that we can serve the best for you.
+        Enter your feedback here: Enter your feedback here
+        Submit: Submit
+        Thank you: Thank you
+        Confirmation: Your feedback has been submitted.
+      feedback navigator :
+        Add feedback success message : Feedback sent
+        Add feedback success close : Close
+        Add feedback error title : Error sending feedback
+        Add feedback error message : Please try again later
+        Add feedback error close : Close
+
+# fouth tab
+
+profile:
+  title: My Profile
+  personal:
+    title: Personal
+    button:
+      edit: Edit
+      change: Change
+    name: Name
+    email address: Email Address
+    mobile number: Mobile number
+    password: Password
+  vehicle:
+    title: Vehicle
+    button:
+      edit : Edit
+  settings:
+    title: Settings
+    button:
+      edit: Edit
+      change: Change
+      logout: Logout
+    workshop: Workshop
+    workshop preferred: Preferred
+    service advisor: Service Advisor
+    service advisor preferred: Preferred
+    language: Language
+    language selected: Selected
+
+
+# fifth tab
+
+contactus:
+  title: Contact Us
+  contacts:
+    title: Contacts
+    button:
+      tel: "%(number)s"
+    emergency contact: Emergency Contact
+    emergency details : If you cannot start your car or continue your journey for technical, safety or legal reasons, we will come and get you up and running.
+    emergency footnote : If you require immediate assistance contact
+  social:
+    title: Social

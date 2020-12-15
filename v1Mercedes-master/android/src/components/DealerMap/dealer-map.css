@@ -1,0 +1,59 @@
+.dealer-map {
+  width: 100%;
+  height: 160px;
+  margin-top: 12px;
+  position: relative;
+}
+.dealer-indicator-number {
+  color: white;
+  font-size: 16px;
+  font-family: CorpoS_Light;
+  position: absolute;
+  left: 13px;
+  top: 4px;
+}
+
+.dealer-indicator {
+  position: absolute;
+  width: 25px;
+  left: -12px;
+  top: -25px;
+}
+
+.dealer-indicator-image {
+  width: 100%;
+  height: 100%;
+}
+
+.dealer-map-mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dealer-map-toolbar {
+  width: 100%;
+  height: 40px;
+  background: rgba(255,255,255,0.65);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.dealer-map-clickable {
+  width: 100%;
+  height: 120px;
+}
+
+.dealer-map-toobar-text {
+  color: rgba(0,173,239,1);
+  font-family: CorpoS;
+}

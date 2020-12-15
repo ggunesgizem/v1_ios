@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "airbnb",
+  ],
+  "rules": {
+    "react/prefer-stateless-function": 0,
+    "no-invalid-this": 0,
+    "arrow-body-style": ["off", "never"],
+    "semi": ["error","never"],
+    "import/extensions": ["error","never", { "css":"always", "png":"always"}],
+    "no-underscore-dangle": ["off", { "allow": ["__REDUX_DEVTOOLS_EXTENSION__"] }],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/no-array-index-key": ["off"],
+    "comma-dangle": ["off"],
+    "quotes": ["off"],
+    "react/forbid-prop-types": ["off"],
+    "import/no-unresolved": ["off"],
+    "import/no-unassigned-import": ["off"],
+    "class-methods-use-this": ["off"],
+    "max-len": ["warn",{"code": 500 }],
+    "no-class-assign":["off"],
+    "react/require-default-props": ["off"],
+    "jsx-a11y/no-static-element-interactions": ["off"],
+    "no-nested-ternary": ["off"],
+  },
+}

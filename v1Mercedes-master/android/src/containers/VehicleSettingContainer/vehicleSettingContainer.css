@@ -1,0 +1,15 @@
+.vehicleUpdateForm_removeButton_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.vehicleUpdateForm_removeButton {
+  color: var(--setting-vehicle-removeButton-font-color);
+  font-family: var(--setting-vehicle-removeButton-font);
+  font-size: var(--setting-vehicle-removeButton-font-size);
+  padding-left: var(--textButton-padding);
+  padding-top: var(--textButton-padding);
+  padding-bottom: var(--textButton-padding);
+}

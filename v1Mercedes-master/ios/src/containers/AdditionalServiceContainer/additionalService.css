@@ -1,0 +1,71 @@
+.addtionalServiceMain {
+  height: 100%;
+  width: 100%;
+  background: black;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addtionalServiceMain_content {
+  width: 100%;
+  height: calc(100% - var(--top-container-height));
+  position: relative;
+}
+
+.additional-service-container {
+  
+}
+
+.additional-service-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin-top: 40px;
+  padding-right: 30px;
+}
+
+.additional-service-closeBtn {
+  color: rgba(153,153,153,1);
+  font-size: 20px;
+  position: fixed;
+  right: 8%;
+  top: 8%;
+}
+
+.additional-service-title {
+  font-size: 30px;
+  font-family: CorpoPro_Regular, CorpoALig;
+  color: white;
+}
+
+.service-slider-container {
+  width: 100%;
+}
+
+.service-detail-enter {
+  opacity: 0.01;
+  transform: translate(100%, 0%);
+}
+
+.service-detail-enter.service-detail-enter-active {
+  opacity: 1;
+  transform: translate(0%);
+  opacity: 1;
+  transition: all 400ms ease-in-out;
+}
+
+.service-list-enter {
+  opacity: 0.01;
+  /*transform: translate(-100%, 0%);*/
+}
+
+.service-list-enter.service-list-enter-active {
+  opacity: 1;
+  /*transform: translate(0%);*/
+  transition: all 400ms ease-in-out;
+}

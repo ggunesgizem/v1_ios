@@ -1,0 +1,73 @@
+.buttonPageMain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  background-color: white;
+}
+
+.bp_contentArea {
+  width: 100%;
+  height: calc(100% - var(--buttonPage-button-zone-height));
+  position: relative;
+}
+
+.bp_contentArea_full {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#bp_contentArea_inner {
+  width: 100%;
+}
+
+.bp_buttonZone {
+  width: 100%;
+  height: var(--buttonPage-button-zone-height);
+  padding-left: var(--buttonPage-button-zone-lr-padding);
+  padding-right: var(--buttonPage-button-zone-lr-padding);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-top: 1px solid #cccccc;
+  background-color: white;
+}
+
+.bg_button {
+  width: 100%;
+  height: var(--buttonPage-button-height);
+  background-color: #00adef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--buttonPage-button-font);
+  font-size: var(--buttonPage-button-font-size);
+  color: var(--buttonPage-button-font-color);
+}
+
+.bg_button_disabled {
+  width: 100%;
+  height: var(--buttonPage-button-height);
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--buttonPage-button-font);
+  font-size: var(--buttonPage-button-font-size);
+  color: var(--buttonPage-button-font-color-disabled);
+}
+
+.bg_button_disabled_style2 {
+  width: 100%;
+  height: var(--buttonPage-button-height);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--buttonPage-button-font);
+  font-size: var(--buttonPage-button-font-size);
+  color: #cccccc;
+  border:1px solid #cccccc
+}

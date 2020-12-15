@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DF2C9475DEBCE322B5DE8D22BDE2781B /* Build configuration list for PBXAggregateTarget "GoogleInterchangeUtilities" */;
+			buildPhases = (
+			);
+			dependencies = (
+				133E41A6681205399469A59B09942D40 /* PBXTargetDependency */,
+			);
+			name = GoogleInterchangeUtilities;
+		};
+		583357E481A8D2F96C00D52BE2D0F018 /* GoogleIPhoneUtilities */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A421A3C3ECB1551111A109552042BFE /* Build configuration list for PBXAggregateTarget "GoogleIPhoneUtilities" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4F72800A9EA467B74953E4012E1178C7 /* PBXTargetDependency */,
+				D95B11BF69BF028C2DBAD00935AFAC89 /* PBXTargetDependency */,
+			);
+			name = GoogleIPhoneUtilities;
+		};
+		8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F944A43BDD6CB088B873577435415588 /* Build configuration list for PBXAggregateTarget "GoogleUtilities" */;
+			buildPhases = (
+			);
+			dependencies = (
+				40111C04F7BC17A12C22DF230D462FE7 /* PBXTargetDependency */,
+			);
+			name = GoogleUtilities;
+		};
+		B932D7E82FC1E2C908BACFD71DDCF791 /* GoogleCloudMessaging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FCD646249527649D3DFA56063BC162F0 /* Build configuration list for PBXAggregateTarget "GoogleCloudMessaging" */;
+			buildPhases = (
+			);
+			dependencies = (
+				02BF476A8B50B553F04E5BCD49F0E253 /* PBXTargetDependency */,
+				4AD9F37DA9B606C3C673B5A0535C3C26 /* PBXTargetDependency */,
+				CD51B1C9AC9AAC93F8568A76EA3569F5 /* PBXTargetDependency */,
+			);
+			name = GoogleCloudMessaging;
+		};
+		D59B717583856CCB0BE6F81A55523D79 /* GGLInstanceID */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B8D259DB3427D1036DE54E47C122C54 /* Build configuration list for PBXAggregateTarget "GGLInstanceID" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GGLInstanceID;
+		};
+		E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07C2474067DE75FADDEB2DF5481AC210 /* Build configuration list for PBXAggregateTarget "GoogleSymbolUtilities" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleSymbolUtilities;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2AB61E5CF1B25656146638A66C2DD1D0 /* Pods-Servisim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C4E34C58A44370796B44275C2569E0 /* Pods-Servisim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C0CDC149032C2125686DC53AAB2540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B6F6FE8FCB5F13C458CB2CA651D07528 /* Pods-Servisim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A58716935B9D50394DBF80C6EB55A9 /* Pods-Servisim-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08E56982C4638455F2D02272582B1D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		3196E039FAA03E69568F0E7EA5286B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		3FCD921C13153FE2CF8FC439F089882C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583357E481A8D2F96C00D52BE2D0F018;
+			remoteInfo = GoogleIPhoneUtilities;
+		};
+		5F96C04E1CA1D952016F4E848996770C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		71EE373023E4C5594124934F5EC1C43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
+		74281236FB076B37D16DC06998F759C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59B717583856CCB0BE6F81A55523D79;
+			remoteInfo = GGLInstanceID;
+		};
+		8A2C703C50F57D858680201C4A959B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4271BC845D74C388172EBF91053C6A61;
+			remoteInfo = GoogleInterchangeUtilities;
+		};
+		9EC7267DD9EF3B69C4DAFB471E393ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4271BC845D74C388172EBF91053C6A61;
+			remoteInfo = GoogleInterchangeUtilities;
+		};
+		AF1E89D7AAE78F47E808224CF3CFC5E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
+		B63AC035B9B4014FA5683D0D014D2A21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		CBCBCA28D4C058DD82EA417FEAF0FD6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99ABCA720032C8937D6293EE3327B2F;
+			remoteInfo = GoogleSymbolUtilities;
+		};
+		F4AB765291A9DAD6C7C5810025DE0E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583357E481A8D2F96C00D52BE2D0F018;
+			remoteInfo = GoogleIPhoneUtilities;
+		};
+		F552033DD5F68DF6C7F23D67144EAA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B932D7E82FC1E2C908BACFD71DDCF791;
+			remoteInfo = GoogleCloudMessaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0FE1B4B8F04DF8EC66506F91F98E7D /* GoogleIPhoneUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleIPhoneUtilities.release.xcconfig; sourceTree = "<group>"; };
+		1F1EA80B651596E4464458C21BF1722C /* GoogleInterchangeUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleInterchangeUtilities.release.xcconfig; sourceTree = "<group>"; };
+		20038D9538FAF4E50120B39418DDACDA /* GCMPubSub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMPubSub.h; path = Headers/Public/GCMPubSub.h; sourceTree = "<group>"; };
+		219ECD750108AEB7E405D44A103F7A67 /* Pods-Servisim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Servisim.release.xcconfig"; sourceTree = "<group>"; };
+		27068A8A9492650C4D28CB4B6A727FEF /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		283E85926FC6A2421CC80B696C5E4872 /* Pods-Servisim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Servisim.modulemap"; sourceTree = "<group>"; };
+		2A75062728B1D27F24943A05590643D4 /* GCMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMConfig.h; path = Headers/Public/GCMConfig.h; sourceTree = "<group>"; };
+		2DA41A4294C1D0D61E60E6683A95550F /* Pods-Servisim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Servisim.debug.xcconfig"; sourceTree = "<group>"; };
+		2E6EE73FCEB8234DF61992145A9FC30E /* GoogleSymbolUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSymbolUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35C9061E61D694B23521EB4B96F2E32E /* Pods-Servisim-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Servisim-Info.plist"; sourceTree = "<group>"; };
+		3668EFCC365F1307864BBA1FEB8D9604 /* libGcmLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGcmLib.a; path = Libraries/libGcmLib.a; sourceTree = "<group>"; };
+		41A58716935B9D50394DBF80C6EB55A9 /* Pods-Servisim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Servisim-dummy.m"; sourceTree = "<group>"; };
+		466CFAAD1D0828C20B114FBED39234FA /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		46A1A452A245F819F156553FCC78C343 /* GoogleUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.release.xcconfig; sourceTree = "<group>"; };
+		4DE778119EE0EA1C4060B339C78E51C8 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		509B3E4C80036BA3549088DCE8D741F9 /* GCMService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMService.h; path = Headers/Public/GCMService.h; sourceTree = "<group>"; };
+		55507480D9D62A55D0A2008043E63CB0 /* GCMReceiverDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMReceiverDelegate.h; path = Headers/Public/GCMReceiverDelegate.h; sourceTree = "<group>"; };
+		6A5E750E68B355B212A7779B8FF5BF90 /* Pods_Servisim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Servisim.framework; path = "Pods-Servisim.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5276EA2A57ED68302636AB99E9CCFB /* GGLInstanceID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLInstanceID.release.xcconfig; sourceTree = "<group>"; };
+		73E1001E42AA45DCF13F56156D814F14 /* GoogleInterchangeUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleInterchangeUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		83C4E34C58A44370796B44275C2569E0 /* Pods-Servisim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Servisim-umbrella.h"; sourceTree = "<group>"; };
+		83FDB496E16EFE89B6CCE5E83A95921E /* GGLInstanceIDConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDConfig.h; path = Headers/Public/GGLInstanceIDConfig.h; sourceTree = "<group>"; };
+		8698DAED580268536CA9E542149D44B4 /* GoogleCloudMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleCloudMessaging.release.xcconfig; sourceTree = "<group>"; };
+		91410D2AC36B1CE6645FC8904E6A9228 /* GGLInstanceID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGLInstanceID.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC779CF3B90EA9DD753815D3D9A8FAD1 /* Pods-Servisim-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Servisim-acknowledgements.plist"; sourceTree = "<group>"; };
+		B153F711C1D3ED62F1E352D38159D7A8 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		B70F565F34EC86965982992009C8ABC7 /* libGGLInstanceIDLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLInstanceIDLib.a; path = Libraries/libGGLInstanceIDLib.a; sourceTree = "<group>"; };
+		C35525D59607483C6D09E6A82D8DEF55 /* GoogleUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		C6AEBF2BF8CE129DF305F59B2069270F /* GoogleIPhoneUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleIPhoneUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		CED7660DE4B2AC9BC1053FBE5A88A9E3 /* GGLInstanceIDHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDHeaders.h; path = Headers/Public/GGLInstanceIDHeaders.h; sourceTree = "<group>"; };
+		D102E3141C44970D62A0239AB9516E03 /* Pods-Servisim-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Servisim-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4446719AABF153E5BD1E61CAEC66767 /* GoogleCloudMessaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleCloudMessaging.debug.xcconfig; sourceTree = "<group>"; };
+		DDF80490405E1C0EA45D36490ABEC0B3 /* GoogleCloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleCloudMessaging.h; path = Headers/Public/GoogleCloudMessaging.h; sourceTree = "<group>"; };
+		E39CE747C3B7964303C18184099D4714 /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDDelegate.h; path = Headers/Public/GGLInstanceIDDelegate.h; sourceTree = "<group>"; };
+		ED1E9495E15BAFFA74C6FB3185B6E1D5 /* GoogleSymbolUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSymbolUtilities.release.xcconfig; sourceTree = "<group>"; };
+		FB332C203AC3DD8FA295CC4B5597068D /* GGLInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceID.h; path = Headers/Public/GGLInstanceID.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4223BA48940B1DB85F0776BD46E32213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C0CDC149032C2125686DC53AAB2540 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0717C56B0D9AB98F828B00F4B3C84838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE778119EE0EA1C4060B339C78E51C8 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C8FF623C9E0478626844756CEAF1B14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E6EE73FCEB8234DF61992145A9FC30E /* GoogleSymbolUtilities.debug.xcconfig */,
+				ED1E9495E15BAFFA74C6FB3185B6E1D5 /* GoogleSymbolUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleSymbolUtilities";
+			sourceTree = "<group>";
+		};
+		22355E22B33E92C9096B6A512D30A21B /* Pods-Servisim */ = {
+			isa = PBXGroup;
+			children = (
+				283E85926FC6A2421CC80B696C5E4872 /* Pods-Servisim.modulemap */,
+				D102E3141C44970D62A0239AB9516E03 /* Pods-Servisim-acknowledgements.markdown */,
+				AC779CF3B90EA9DD753815D3D9A8FAD1 /* Pods-Servisim-acknowledgements.plist */,
+				41A58716935B9D50394DBF80C6EB55A9 /* Pods-Servisim-dummy.m */,
+				35C9061E61D694B23521EB4B96F2E32E /* Pods-Servisim-Info.plist */,
+				83C4E34C58A44370796B44275C2569E0 /* Pods-Servisim-umbrella.h */,
+				2DA41A4294C1D0D61E60E6683A95550F /* Pods-Servisim.debug.xcconfig */,
+				219ECD750108AEB7E405D44A103F7A67 /* Pods-Servisim.release.xcconfig */,
+			);
+			name = "Pods-Servisim";
+			path = "Target Support Files/Pods-Servisim";
+			sourceTree = "<group>";
+		};
+		3F1224E54A21DD3C697BBA0D515D05C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27068A8A9492650C4D28CB4B6A727FEF /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		431E6CF0DBEF63AAAD7D428A402899BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A08C3D68FB3FEDBEDAA5C379A6E65C70 /* GGLInstanceID */,
+				7377A7B4A344C930287F2C5A79346071 /* GoogleCloudMessaging */,
+				C6BA8274F4094713C6E4888AABF8DF0A /* GoogleInterchangeUtilities */,
+				61026509BDA7299859DF6FCE93990DDF /* GoogleIPhoneUtilities */,
+				717269727874065D2B9C61F320E16ABE /* GoogleSymbolUtilities */,
+				5B2A6B212056F738C3CD755F569C6752 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		43C47D02FE15477B2F156BEB911C3892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				466CFAAD1D0828C20B114FBED39234FA /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F7D8965123090B4B60D7D20B11B55E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B70F565F34EC86965982992009C8ABC7 /* libGGLInstanceIDLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B2A6B212056F738C3CD755F569C6752 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				43C47D02FE15477B2F156BEB911C3892 /* Frameworks */,
+				BA720CA8BE01B6BA9B847329E832954D /* Support Files */,
+			);
+			name = GoogleUtilities;
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		61026509BDA7299859DF6FCE93990DDF /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0717C56B0D9AB98F828B00F4B3C84838 /* Frameworks */,
+				FD2BF780B89387D77B59C1829529F79E /* Support Files */,
+			);
+			name = GoogleIPhoneUtilities;
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		660C22FC064DF14CC0E7DC92DD5D4D4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4446719AABF153E5BD1E61CAEC66767 /* GoogleCloudMessaging.debug.xcconfig */,
+				8698DAED580268536CA9E542149D44B4 /* GoogleCloudMessaging.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleCloudMessaging";
+			sourceTree = "<group>";
+		};
+		6E17F5AF499266EED06E1FD31604454D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22355E22B33E92C9096B6A512D30A21B /* Pods-Servisim */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		717269727874065D2B9C61F320E16ABE /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3F1224E54A21DD3C697BBA0D515D05C3 /* Frameworks */,
+				1C8FF623C9E0478626844756CEAF1B14 /* Support Files */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		7377A7B4A344C930287F2C5A79346071 /* GoogleCloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				2A75062728B1D27F24943A05590643D4 /* GCMConfig.h */,
+				20038D9538FAF4E50120B39418DDACDA /* GCMPubSub.h */,
+				55507480D9D62A55D0A2008043E63CB0 /* GCMReceiverDelegate.h */,
+				509B3E4C80036BA3549088DCE8D741F9 /* GCMService.h */,
+				DDF80490405E1C0EA45D36490ABEC0B3 /* GoogleCloudMessaging.h */,
+				8B8E217BD0737246EA22E3A0D67301AD /* Frameworks */,
+				660C22FC064DF14CC0E7DC92DD5D4D4B /* Support Files */,
+			);
+			name = GoogleCloudMessaging;
+			path = GoogleCloudMessaging;
+			sourceTree = "<group>";
+		};
+		783BC23573D2E98C1634815A3F9101EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91410D2AC36B1CE6645FC8904E6A9228 /* GGLInstanceID.debug.xcconfig */,
+				6E5276EA2A57ED68302636AB99E9CCFB /* GGLInstanceID.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GGLInstanceID";
+			sourceTree = "<group>";
+		};
+		8B8E217BD0737246EA22E3A0D67301AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3668EFCC365F1307864BBA1FEB8D9604 /* libGcmLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08C3D68FB3FEDBEDAA5C379A6E65C70 /* GGLInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				FB332C203AC3DD8FA295CC4B5597068D /* GGLInstanceID.h */,
+				83FDB496E16EFE89B6CCE5E83A95921E /* GGLInstanceIDConfig.h */,
+				E39CE747C3B7964303C18184099D4714 /* GGLInstanceIDDelegate.h */,
+				CED7660DE4B2AC9BC1053FBE5A88A9E3 /* GGLInstanceIDHeaders.h */,
+				4F7D8965123090B4B60D7D20B11B55E1 /* Frameworks */,
+				783BC23573D2E98C1634815A3F9101EE /* Support Files */,
+			);
+			name = GGLInstanceID;
+			path = GGLInstanceID;
+			sourceTree = "<group>";
+		};
+		A4D677766D6E8A1F8C6F59DF132AE09F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73E1001E42AA45DCF13F56156D814F14 /* GoogleInterchangeUtilities.debug.xcconfig */,
+				1F1EA80B651596E4464458C21BF1722C /* GoogleInterchangeUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleInterchangeUtilities";
+			sourceTree = "<group>";
+		};
+		AC42EBB16A3CB09717B2125F6FECAD70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E750E68B355B212A7779B8FF5BF90 /* Pods_Servisim.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA720CA8BE01B6BA9B847329E832954D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35525D59607483C6D09E6A82D8DEF55 /* GoogleUtilities.debug.xcconfig */,
+				46A1A452A245F819F156553FCC78C343 /* GoogleUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleUtilities";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6BA8274F4094713C6E4888AABF8DF0A /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6B009B335430BC803FF3FF4E564D3 /* Frameworks */,
+				A4D677766D6E8A1F8C6F59DF132AE09F /* Support Files */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				431E6CF0DBEF63AAAD7D428A402899BA /* Pods */,
+				AC42EBB16A3CB09717B2125F6FECAD70 /* Products */,
+				6E17F5AF499266EED06E1FD31604454D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C6B009B335430BC803FF3FF4E564D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B153F711C1D3ED62F1E352D38159D7A8 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD2BF780B89387D77B59C1829529F79E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6AEBF2BF8CE129DF305F59B2069270F /* GoogleIPhoneUtilities.debug.xcconfig */,
+				1B0FE1B4B8F04DF8EC66506F91F98E7D /* GoogleIPhoneUtilities.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleIPhoneUtilities";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1344700330AC69B25CBF3FF82B091A93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB61E5CF1B25656146638A66C2DD1D0 /* Pods-Servisim-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37E95270ED4A9AF7C3685FBDAE19B455 /* Pods-Servisim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9191320F4446DACF81F15757021456E7 /* Build configuration list for PBXNativeTarget "Pods-Servisim" */;
+			buildPhases = (
+				1344700330AC69B25CBF3FF82B091A93 /* Headers */,
+				F42A24A4A9DC4FDDE600A44E4026FF05 /* Sources */,
+				4223BA48940B1DB85F0776BD46E32213 /* Frameworks */,
+				746B1F1498A5A3E7BD5CE68DC9D1B1C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521F736EE7F1B78A94A1746D45E83277 /* PBXTargetDependency */,
+				A1AB84D3066D31C6AD7145A90E1CEC63 /* PBXTargetDependency */,
+				D183E5331B034A89C525B3A491AA205C /* PBXTargetDependency */,
+				61CA484490C4E3A5C06C2E33DF293EA1 /* PBXTargetDependency */,
+				F7CF12672110721CD64E8BDFBDD9E843 /* PBXTargetDependency */,
+				FA77275D783DB52C8565699E3DED257B /* PBXTargetDependency */,
+			);
+			name = "Pods-Servisim";
+			productName = "Pods-Servisim";
+			productReference = 6A5E750E68B355B212A7779B8FF5BF90 /* Pods_Servisim.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AC42EBB16A3CB09717B2125F6FECAD70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59B717583856CCB0BE6F81A55523D79 /* GGLInstanceID */,
+				B932D7E82FC1E2C908BACFD71DDCF791 /* GoogleCloudMessaging */,
+				4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */,
+				583357E481A8D2F96C00D52BE2D0F018 /* GoogleIPhoneUtilities */,
+				E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */,
+				8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */,
+				37E95270ED4A9AF7C3685FBDAE19B455 /* Pods-Servisim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746B1F1498A5A3E7BD5CE68DC9D1B1C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42A24A4A9DC4FDDE600A44E4026FF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F6FE8FCB5F13C458CB2CA651D07528 /* Pods-Servisim-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02BF476A8B50B553F04E5BCD49F0E253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleInterchangeUtilities;
+			target = 4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */;
+			targetProxy = 9EC7267DD9EF3B69C4DAFB471E393ED2 /* PBXContainerItemProxy */;
+		};
+		133E41A6681205399469A59B09942D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 5F96C04E1CA1D952016F4E848996770C /* PBXContainerItemProxy */;
+		};
+		40111C04F7BC17A12C22DF230D462FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 3196E039FAA03E69568F0E7EA5286B56 /* PBXContainerItemProxy */;
+		};
+		4AD9F37DA9B606C3C673B5A0535C3C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleIPhoneUtilities;
+			target = 583357E481A8D2F96C00D52BE2D0F018 /* GoogleIPhoneUtilities */;
+			targetProxy = 3FCD921C13153FE2CF8FC439F089882C /* PBXContainerItemProxy */;
+		};
+		4F72800A9EA467B74953E4012E1178C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = 08E56982C4638455F2D02272582B1D56 /* PBXContainerItemProxy */;
+		};
+		521F736EE7F1B78A94A1746D45E83277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGLInstanceID;
+			target = D59B717583856CCB0BE6F81A55523D79 /* GGLInstanceID */;
+			targetProxy = 74281236FB076B37D16DC06998F759C5 /* PBXContainerItemProxy */;
+		};
+		61CA484490C4E3A5C06C2E33DF293EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleInterchangeUtilities;
+			target = 4271BC845D74C388172EBF91053C6A61 /* GoogleInterchangeUtilities */;
+			targetProxy = 8A2C703C50F57D858680201C4A959B60 /* PBXContainerItemProxy */;
+		};
+		A1AB84D3066D31C6AD7145A90E1CEC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleCloudMessaging;
+			target = B932D7E82FC1E2C908BACFD71DDCF791 /* GoogleCloudMessaging */;
+			targetProxy = F552033DD5F68DF6C7F23D67144EAA61 /* PBXContainerItemProxy */;
+		};
+		CD51B1C9AC9AAC93F8568A76EA3569F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = CBCBCA28D4C058DD82EA417FEAF0FD6D /* PBXContainerItemProxy */;
+		};
+		D183E5331B034A89C525B3A491AA205C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleIPhoneUtilities;
+			target = 583357E481A8D2F96C00D52BE2D0F018 /* GoogleIPhoneUtilities */;
+			targetProxy = F4AB765291A9DAD6C7C5810025DE0E27 /* PBXContainerItemProxy */;
+		};
+		D95B11BF69BF028C2DBAD00935AFAC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = 71EE373023E4C5594124934F5EC1C43F /* PBXContainerItemProxy */;
+		};
+		F7CF12672110721CD64E8BDFBDD9E843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleSymbolUtilities;
+			target = E99ABCA720032C8937D6293EE3327B2F /* GoogleSymbolUtilities */;
+			targetProxy = B63AC035B9B4014FA5683D0D014D2A21 /* PBXContainerItemProxy */;
+		};
+		FA77275D783DB52C8565699E3DED257B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = AF1E89D7AAE78F47E808224CF3CFC5E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2BB5E95E26E9684E7AE5F0AA6CACF36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0FE1B4B8F04DF8EC66506F91F98E7D /* GoogleIPhoneUtilities.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C2FF57CB40F7E0042A8975A809B8450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A1A452A245F819F156553FCC78C343 /* GoogleUtilities.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ACE30AE9CEBA323E62D7CE82FAB2FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1E9495E15BAFFA74C6FB3185B6E1D5 /* GoogleSymbolUtilities.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555509E58FB7E34217EA858654E83D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8698DAED580268536CA9E542149D44B4 /* GoogleCloudMessaging.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88491CA918284A512BA11BE0025DE1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219ECD750108AEB7E405D44A103F7A67 /* Pods-Servisim.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Servisim/Pods-Servisim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Servisim/Pods-Servisim.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B85F992952E2F8DAE3EF84AEF787F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1EA80B651596E4464458C21BF1722C /* GoogleInterchangeUtilities.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BE8F665E976EB6FEF0D42DD1989474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5276EA2A57ED68302636AB99E9CCFB /* GGLInstanceID.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3F8D1CBC29EF7A329534341B850333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91410D2AC36B1CE6645FC8904E6A9228 /* GGLInstanceID.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C118416A39AFE628AE414140176572D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6EE73FCEB8234DF61992145A9FC30E /* GoogleSymbolUtilities.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D16C1D9C9435BA16A317068B81F241FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35525D59607483C6D09E6A82D8DEF55 /* GoogleUtilities.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA97C8E3CB4C3629621E77C20BE375BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E1001E42AA45DCF13F56156D814F14 /* GoogleInterchangeUtilities.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAFC07B2DD9FBABCD804A8146AF8ABDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AEBF2BF8CE129DF305F59B2069270F /* GoogleIPhoneUtilities.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E3BEF208DB450E2E178F4B10DC3CE466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA41A4294C1D0D61E60E6683A95550F /* Pods-Servisim.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Servisim/Pods-Servisim-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Servisim/Pods-Servisim.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E58B24ECDAEA5EC7EE79913226A63A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4446719AABF153E5BD1E61CAEC66767 /* GoogleCloudMessaging.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C2474067DE75FADDEB2DF5481AC210 /* Build configuration list for PBXAggregateTarget "GoogleSymbolUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C118416A39AFE628AE414140176572D7 /* Debug */,
+				4ACE30AE9CEBA323E62D7CE82FAB2FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8D259DB3427D1036DE54E47C122C54 /* Build configuration list for PBXAggregateTarget "GGLInstanceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3F8D1CBC29EF7A329534341B850333 /* Debug */,
+				95BE8F665E976EB6FEF0D42DD1989474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A421A3C3ECB1551111A109552042BFE /* Build configuration list for PBXAggregateTarget "GoogleIPhoneUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFC07B2DD9FBABCD804A8146AF8ABDF /* Debug */,
+				2BB5E95E26E9684E7AE5F0AA6CACF36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9191320F4446DACF81F15757021456E7 /* Build configuration list for PBXNativeTarget "Pods-Servisim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BEF208DB450E2E178F4B10DC3CE466 /* Debug */,
+				88491CA918284A512BA11BE0025DE1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2C9475DEBCE322B5DE8D22BDE2781B /* Build configuration list for PBXAggregateTarget "GoogleInterchangeUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA97C8E3CB4C3629621E77C20BE375BC /* Debug */,
+				8B85F992952E2F8DAE3EF84AEF787F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F944A43BDD6CB088B873577435415588 /* Build configuration list for PBXAggregateTarget "GoogleUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16C1D9C9435BA16A317068B81F241FE /* Debug */,
+				2C2FF57CB40F7E0042A8975A809B8450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD646249527649D3DFA56063BC162F0 /* Build configuration list for PBXAggregateTarget "GoogleCloudMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58B24ECDAEA5EC7EE79913226A63A8B /* Debug */,
+				555509E58FB7E34217EA858654E83D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

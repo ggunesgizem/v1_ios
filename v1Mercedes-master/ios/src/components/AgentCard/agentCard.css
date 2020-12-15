@@ -1,0 +1,174 @@
+.agent-card-parent-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.agent-card-parent-container-sub {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.agent-card-container {
+  /*margin-left: 2.5%;
+  margin-right: 2.5%;*/
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border: 3px solid rgba(0,0,0,0);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding-bottom: 10px;
+}
+
+.agent-card-container-selected {
+  /*margin-left: 2.5%;
+  margin-right: 2.5%;*/
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border: 3px solid rgba(0,173,239,1);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding-bottom: 10px;
+}
+
+.accDetailImageParent {
+  width: 100%;
+  height: 50%;
+  padding: 15px;
+  position: relative;
+}
+.agent-card-image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*margin-top: 20px;*/
+}
+
+.agent-card-preferred-header {
+  background-color: black;
+  display: flex;
+  font-family: CorpoS;
+  color: #cccccc;
+  width: 95%;
+  padding-bottom: 5px;
+}
+
+.agent-card-selected-header {
+  height:34px;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.agent-card-selected-text {
+  color: #cccccc;
+  font-family: CorpoS_Light;
+}
+
+.agent-card-selected-icon {
+  background-image: url('./Selected.png');
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.agent-card-text-container {
+}
+
+.agent-card-text-header {
+  height:51px;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+}
+
+.agent-card-name {
+  font-family: CorpoS_Bold;
+  font-size: var(--sub-header-subtitle-font-size);
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.agent-card-contact-title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  font-family: CorpoS_Bold;
+  margin-top: 5px;
+  align-items: center;
+  font-size: var(--buttonPage-button-font-size);
+  padding-right: 25px;
+}
+
+.agent-card-email-icon {
+  background-image: url("./email.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.agent-card-contact-text {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.agent-card-mobile-icon {
+  background-image: url("./mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.agent-card-contact {
+  font-family: CorpoS_Light;
+  width: 100%;
+  font-size: var(--buttonPage-button-font-size);
+  margin-top: 5px;
+}
+
+.agent-card-price {
+  font-family: CorpoS_Bold;
+  display: flex;
+  text-align: left;
+  font-size: 18px;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  align-items: center;
+  height: 50px;
+}
+
+.agent-card-price-header {
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1));
+  height: 42px;
+}
+
+.agent-card-price-container {
+  height: 60px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}

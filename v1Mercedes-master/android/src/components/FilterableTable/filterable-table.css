@@ -1,0 +1,138 @@
+.filterable-table {
+  width: 100%;
+  height: 100%;
+}
+
+.filterable-table-dealer-list-parent {
+  width: 100%;
+  height: 100%;
+}
+
+.filterable-table-dealer-list {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.search-bar-seperator {
+  height: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: lightgray;
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.search-no-result {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10%;
+}
+
+.search-result-mask {
+  position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.map-seperator {
+  height: 1px;
+  background-color: lightgray;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stacked-item-enter {
+  opacity: 0.01;
+  transform: translate(-100%, 0%);
+}
+
+.stacked-item-enter.stacked-item-enter-active {
+  opacity: 1;
+  transform: translate(0%);
+  opacity: 1;
+  transition: all 400ms ease-in-out;
+}
+
+.expanded-item-enter {
+  opacity: 0.01;
+  /*transform: translate(100%, 0%);*/
+}
+
+.expanded-item-enter.expanded-item-enter-active {
+  opacity: 1;
+  /*transform: translate(0%);*/
+  transition: all 200ms ease-in-out;
+}
+
+.expanded-item-appear {
+  opacity: 0.01;
+  /*transform: translate(100%, 0%);*/
+}
+
+.expanded-item-appear.expanded-item-appear-active {
+  opacity: 1;
+  /*transform: translate(0%);*/
+  transition: all 200ms ease-in;
+}
+
+.expanded-item-leave {
+  opacity: 1;
+  /*transform: translate(100%, 0%);*/
+}
+
+.expanded-item-leave.expanded-item-leave-active {
+  opacity: 0.01;
+  /*transform: translate(0%);*/
+  transition: all 200ms ease-in;
+}
+
+.map-popover-appear {
+  opacity: 0.01;
+}
+
+.map-popover-appear.map-popover-appear-active {
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+}
+
+.map-popover-enter {
+  opacity: 0.01;
+}
+
+.map-popover-enter.map-popover-enter-active {
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+}
+
+.map-popover-leave {
+  opacity: 1;
+}
+
+.map-popover-leave.map-popover-leave-active {
+  opacity: 0.01;
+  transition: all 200ms ease-in-out;
+}
+
+.dealer-table-section-header {
+  background: #f8f8f8;
+  color: #999999;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+  font-family: CorpoS_Light;
+  font-size: var(--inner-page-header-font-size);
+}

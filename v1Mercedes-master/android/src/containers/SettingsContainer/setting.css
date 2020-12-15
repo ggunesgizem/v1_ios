@@ -1,0 +1,74 @@
+.settings-container {
+  color: white;
+  width: 92%;
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.settings-group-container {
+  width: 100%;
+}
+
+.settings-group-header {
+  text-align: left;
+  font-size: 18px;
+  font-family: CorpoS_Bold;
+  margin-bottom: 6px;
+}
+
+.settings-group-sub-header {
+  text-align: left;
+  font-size: 16px;
+  font-family: CorpoS_Bold;
+  margin-bottom: 0px;
+}
+
+.settings-group-help-text {
+  text-align: left;
+  font-size: 10px;
+  font-family: CorpoS_Light;
+}
+
+.settings-group-preferred-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #555;
+  padding-right: 22px;
+}
+
+.settings-group-preferred-text {
+  text-align: left;
+  font-size: 16px;
+  font-family: CorpoS_Light;
+}
+
+.settings-group-edit-btn {
+  color: #00ADEF;
+  font-family: CorpoS_Bold;
+  font-size: 16px;
+}
+
+.preference-setting-animation-enter {
+  opacity: 0.01;
+}
+
+.preference-setting-animation-enter.preference-setting-animation-enter-active {
+  opacity: 1;
+  transition: all 200ms ease-in-out;
+}
+
+.preference-setting-animation-leave {
+  opacity: 1;
+}
+
+.preference-setting-animation-leave.preference-setting-animation-leave-active {
+  opacity: 0.01;
+  transition: all 200ms ease-in-out;
+}

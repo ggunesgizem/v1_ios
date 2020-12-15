@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-packageName="com.daimler.aftersalestracker.android.dev" android-versionCode="1" id="com.daimler.aftersalestracker" ios-CFBundleIdentifier="com.daimler.aftersalestracker.ios.iphone" ios-CFBundleVersion="1.0.6" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Servisim</name>
+    <description>
+        Hello World sample application that responds to the deviceready event.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <preference name="orientation" value="portrait" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+    <preference name="fullscreen" value="false" />
+    <preference name="android-windowSoftInputMode" value="adjustResize" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="file://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="whatsapp://*" />
+    <allow-intent href="comgooglemapsurl://*" />
+    <allow-navigation href="*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <preference name="SplashScreenDelay" value="5000" />
+        <icon density="ldpi" src="res/icon/android/icon-ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/icon-mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/icon-hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/icon-xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/icon-xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/icon-xxxhdpi.png" />
+        <splash density="land-ldpi" height="768" src="res/screen/android/Default-Landscape.png" width="1024" />
+        <splash density="land-mdpi" height="1536" src="res/screen/android/Default-Landscape@2x.png" width="2048" />
+        <splash density="land-hdpi" height="1242" src="res/screen/android/Default-Landscape@3x.png" width="2208" />
+        <splash density="port-mdpi" height="1136" src="res/screen/android/Default-568h.png" width="640" />
+        <splash density="port-hdpi" height="1334" src="res/screen/android/Default-667h.png" width="750" />
+        <splash density="port-xhdpi" height="2208" src="res/screen/android/Default-736h.png" width="1242" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Advertisement would like to store a photo.</string>
+        </config-file>
+        <config-file parent="NSAppTransportSecurity" target="*-Info.plist">
+            <dict>
+                <key>NSAllowsArbitraryLoads</key>
+                <false />
+            </dict>
+        </config-file>
+        <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+            <string>“Servisim” uygulaması bu bilgiyi mevcut lokasyonunuza erişimek için kullanır. Mevcut lokasyon bilginiz yakınınzdaki servis noktalarını harita üzerinde belirlemek ve navigasyon amaçlı kullanılır. Herhangi bir noktada iPhone ayarlarınızdan etkinleştirebilir, devre dışı bırakabilirsiniz. iOS Ayarlar -&gt; Gizlilik –&gt; Konum Servisleri -&gt; Servisim</string>
+        </edit-config>
+        <preference name="BackupWebStorage" value="local" />
+        <preference name="DisallowOverscroll" value="true" />
+        <preference name="StatusBarOverlaysWebView" value="false" />
+        <preference name="StatusBarStyle" value="lightcontent" />
+        <preference name="webviewbounce" value="false" />
+        <icon height="57" platform="ios" src="res/icon/ios/icon.png" width="57" />
+        <icon height="114" platform="ios" src="res/icon/ios/icon@2x.png" width="114" />
+        <icon height="40" platform="ios" src="res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="res/icon/ios/icon-small@3x.png" width="87" />
+        <splash height="1136" platform="ios" src="res/screen/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" platform="ios" src="res/screen/ios/Default-667h.png" width="750" />
+        <splash height="2208" platform="ios" src="res/screen/ios/Default-736h.png" width="1242" />
+        <splash height="1242" platform="ios" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
+        <splash height="1536" platform="ios" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="768" platform="ios" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" platform="ios" src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="1024" platform="ios" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="960" platform="ios" src="res/screen/ios/Default@2x~iphone.png" width="640" />
+        <splash height="480" platform="ios" src="res/screen/ios/Default~iphone.png" width="320" />
+    </platform>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
+    <plugin name="cordova-plugin-camera" spec="^2.4.1">
+        <variable name="CAMERA_USAGE_DESCRIPTION" value="CAMERA REASON" />
+        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Photolibrary reason" />
+    </plugin>
+    <plugin name="cordova-plugin-console" spec="^1.1.0" />
+    <plugin name="cordova-plugin-contacts" spec="^2.3.1" />
+    <plugin name="cordova-plugin-device" spec="^1.1.7" />
+    <plugin name="cordova-plugin-device-motion" spec="^1.2.5" />
+    <plugin name="cordova-plugin-device-orientation" spec="^1.0.7" />
+    <plugin name="cordova-plugin-dialogs" spec="^1.3.4" />
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
+    <plugin name="cordova-plugin-globalization" spec="^1.11.0" />
+    <plugin name="cordova-plugin-google-analytics" spec="^1.8.6" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^1.7.2" />
+    <plugin name="cordova-plugin-jailbreak-detection" spec="git+https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git" />
+    <plugin name="cordova-plugin-media" spec="^2.4.1" />
+    <plugin name="cordova-plugin-network-information" spec="^1.3.4" />
+    <plugin name="cordova-plugin-settings-hook" spec="^0.2.7" />
+    <plugin name="cordova-plugin-splashscreen" spec="^3.2.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-vibration" spec="^2.1.6" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="phonegap-plugin-push" spec="^1.11.1">
+        <variable name="SENDER_ID" value="85075801930" />
+    </plugin>
+    <plugin name="org.apache.cordova.plugin.cache" spec="https://github.com/andxyz/cordova-plugin-cache.git" />
+    <plugin name="cordova-plugin-transport-security" spec="^0.1.2" />
+    <plugin name="cordova-plugin-geolocation" spec="^2.4.3">
+        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value=" " />
+    </plugin>
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <engine name="android" spec="^6.2.0" />
+</widget>
